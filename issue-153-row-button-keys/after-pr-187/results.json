@@ -1,0 +1,106 @@
+{
+  "url": "http://127.0.0.1:8765/",
+  "steps": [
+    {
+      "step": "1-focus-retry",
+      "label": "Ctrl+F, then Tab to broken-mirror.tar.xz › Retry",
+      "focused": "broken-mirror.tar.xz › retry",
+      "detailOpen": false,
+      "selectedRow": {
+        "gid": "aaaa1111",
+        "status": "active"
+      },
+      "selection": [
+        "Ubuntu 24.04 Desktop.iso"
+      ],
+      "notice": null,
+      "rpcSinceLastStep": [],
+      "tabPresses": 64
+    },
+    {
+      "step": "2-enter-on-retry",
+      "label": "Enter on Retry",
+      "focused": "body",
+      "detailOpen": false,
+      "selectedRow": {
+        "gid": "aaaa1111",
+        "status": "active"
+      },
+      "selection": [
+        "Ubuntu 24.04 Desktop.iso"
+      ],
+      "notice": null,
+      "rpcSinceLastStep": [
+        "aria2.addUri",
+        "aria2.removeDownloadResult"
+      ]
+    },
+    {
+      "step": "3-space-on-retry",
+      "label": "Ctrl+F, Tab to half-written.iso › Retry, Space",
+      "focused": "body",
+      "detailOpen": false,
+      "selectedRow": {
+        "gid": "aaaa1111",
+        "status": "active"
+      },
+      "selection": [
+        "Ubuntu 24.04 Desktop.iso"
+      ],
+      "notice": null,
+      "rpcSinceLastStep": [
+        "aria2.addUri",
+        "aria2.removeDownloadResult"
+      ],
+      "tabPresses": 68
+    },
+    {
+      "step": "4-enter-on-show-in-folder",
+      "label": "Ctrl+F, Tab to annual-report.pdf › Show in folder, Enter",
+      "focused": "annual-report.pdf › reveal",
+      "detailOpen": false,
+      "selectedRow": {
+        "gid": "aaaa1111",
+        "status": "active"
+      },
+      "selection": [
+        "Ubuntu 24.04 Desktop.iso"
+      ],
+      "notice": "Couldn't show in folder “annual-report.pdf”: The system file manager is unavailable. Dismiss",
+      "rpcSinceLastStep": [],
+      "tabPresses": 88
+    },
+    {
+      "step": "5-space-on-row",
+      "label": "Space with the Ubuntu row focused",
+      "focused": "row Ubuntu 24.04 Desktop.iso",
+      "detailOpen": false,
+      "selectedRow": {
+        "gid": "aaaa1111",
+        "status": "paused"
+      },
+      "selection": [
+        "Ubuntu 24.04 Desktop.iso"
+      ],
+      "notice": "Couldn't show in folder “annual-report.pdf”: The system file manager is unavailable. Dismiss",
+      "rpcSinceLastStep": [
+        "aria2.pause"
+      ]
+    },
+    {
+      "step": "6-enter-on-row",
+      "label": "Enter with the Ubuntu row focused",
+      "focused": "row Ubuntu 24.04 Desktop.iso",
+      "detailOpen": true,
+      "selectedRow": {
+        "gid": "aaaa1111",
+        "status": "paused"
+      },
+      "selection": [
+        "Ubuntu 24.04 Desktop.iso"
+      ],
+      "notice": "Couldn't show in folder “annual-report.pdf”: The system file manager is unavailable. Dismiss",
+      "rpcSinceLastStep": []
+    }
+  ]
+}
