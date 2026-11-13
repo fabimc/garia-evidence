@@ -24,7 +24,17 @@ Fixed by [fabimc/garia#186](https://github.com/fabimc/garia/pull/186).
 
 The step numbers and names match the files in [`before-master/`](before-master/), [`pr-186-as-submitted/`](pr-186-as-submitted/), and [`after-pr-186/`](after-pr-186/). Each folder has a screenshot per step and a `results.json` with the full state per step.
 
-**Browser-dev can't reproduce the bug itself.** Chromium turns Shift+F10 and the Menu key into a `contextmenu` event, so `master` opens the menu in this harness. WebKitGTK under Hyprland doesn't, which is the failure the issue reports. The keyboard path the PR adds is what runs in the "after" column (focus lands in the menu and the menu sits under the row, neither of which the `contextmenu` path does). The native WebKitGTK app was not exercised here: the desktop session was locked during this run.
+**Browser-dev can't reproduce the bug itself.** Chromium turns Shift+F10 and the Menu key into a `contextmenu` event, so `master` opens the menu in this harness. WebKitGTK under Hyprland doesn't, which is the failure the issue reports. The keyboard path the PR adds is what runs in the "after" column (focus lands in the menu and the menu sits under the row, neither of which the `contextmenu` path does). The native app was checked separately; see [Native check](#native-check).
+
+## Native check
+
+The fix works in the native app on Omarchy (Hyprland 0.56.2, WebKitGTK 2.54.1), built from `master` at `20c76b1`. All nine checks pass: Shift+F10 and the Menu key open `#row-menu` under the focused row with the first item focused. Arrow keys, Home and End move through the items. Escape and Tab close the menu and return focus to the row. Plain F10 doesn't open the row menu. A two-row selection keeps both rows and shows plural items. Enter on Pause pauses the row and keeps focus on it. Right-click still opens the menu at the pointer.
+
+So WebKitGTK does deliver both keys to the page as `keydown` events. A control run on the pre-fix build (`eeed365`) with the same input opens nothing, which reproduces the issue.
+
+Two caveats. Keys were sent with `wtype` (Hyprland's virtual keyboard), not pressed by hand. The laptop keyboard has no Menu key, so the Menu key was sent as the `Menu` keysym. Separately, plain F10 activates GTK's native menu bar, and Escape from the virtual keyboard didn't close that dropdown.
+
+Step-by-step results, versions, and screenshots: [`native-omarchy/results.md`](native-omarchy/results.md).
 
 ## Other checks
 
