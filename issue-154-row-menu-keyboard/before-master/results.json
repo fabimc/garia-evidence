@@ -1,0 +1,283 @@
+{
+  "url": "http://127.0.0.1:8765/?platform=linux",
+  "steps": [
+    {
+      "step": "1-focus-row",
+      "label": "Completed view, Ctrl+F, Tab, Tab",
+      "focused": "annual-report.pdf › button",
+      "menuOpen": false,
+      "menuItems": [],
+      "menuAt": null,
+      "focusedRowBox": {
+        "left": 249,
+        "bottom": 122
+      },
+      "selection": [],
+      "rpcSinceLastStep": []
+    },
+    {
+      "step": "2-shift-f10",
+      "label": "Shift+F10",
+      "focused": "row annual-report.pdf",
+      "menuOpen": true,
+      "menuItems": [
+        "Show in folder",
+        "Copy URL",
+        "Copy File Path",
+        "Details",
+        "Open Containing Folder",
+        "Add Tag…",
+        "Remove, Keep Files",
+        "Delete…"
+      ],
+      "menuAt": {
+        "left": 372,
+        "top": 103
+      },
+      "focusedRowBox": {
+        "left": 249,
+        "bottom": 122
+      },
+      "selection": [
+        "annual-report.pdf (complete)"
+      ],
+      "rpcSinceLastStep": []
+    },
+    {
+      "step": "3-arrow-down",
+      "label": "ArrowDown in the menu",
+      "focused": "row quote\"and<angle>brackets.zip",
+      "menuOpen": true,
+      "menuItems": [
+        "Show in folder",
+        "Copy URL",
+        "Copy File Path",
+        "Details",
+        "Open Containing Folder",
+        "Add Tag…",
+        "Remove, Keep Files",
+        "Delete…"
+      ],
+      "menuAt": {
+        "left": 372,
+        "top": 103
+      },
+      "focusedRowBox": {
+        "left": 249,
+        "bottom": 158
+      },
+      "selection": [
+        "quote\"and<angle>brackets.zip (complete)"
+      ],
+      "rpcSinceLastStep": []
+    },
+    {
+      "step": "4-escape",
+      "label": "Escape",
+      "focused": "row quote\"and<angle>brackets.zip",
+      "menuOpen": false,
+      "menuItems": [],
+      "menuAt": null,
+      "focusedRowBox": {
+        "left": 249,
+        "bottom": 158
+      },
+      "selection": [
+        "quote\"and<angle>brackets.zip (complete)"
+      ],
+      "rpcSinceLastStep": []
+    },
+    {
+      "step": "5-menu-key",
+      "label": "Menu key (ContextMenu)",
+      "focused": "row quote\"and<angle>brackets.zip",
+      "menuOpen": true,
+      "menuItems": [
+        "Show in folder",
+        "Copy URL",
+        "Copy File Path",
+        "Details",
+        "Open Containing Folder",
+        "Add Tag…",
+        "Remove, Keep Files",
+        "Delete…"
+      ],
+      "menuAt": {
+        "left": 752,
+        "top": 140
+      },
+      "focusedRowBox": {
+        "left": 249,
+        "bottom": 158
+      },
+      "selection": [
+        "quote\"and<angle>brackets.zip (complete)"
+      ],
+      "rpcSinceLastStep": []
+    },
+    {
+      "step": "6-tab-out",
+      "label": "Tab in the menu",
+      "focused": "quote\"and<angle>brackets.zip › button",
+      "menuOpen": true,
+      "menuItems": [
+        "Show in folder",
+        "Copy URL",
+        "Copy File Path",
+        "Details",
+        "Open Containing Folder",
+        "Add Tag…",
+        "Remove, Keep Files",
+        "Delete…"
+      ],
+      "menuAt": {
+        "left": 752,
+        "top": 140
+      },
+      "focusedRowBox": {
+        "left": 249,
+        "bottom": 158
+      },
+      "selection": [
+        "quote\"and<angle>brackets.zip (complete)"
+      ],
+      "rpcSinceLastStep": []
+    },
+    {
+      "step": "7-plain-f10",
+      "label": "Plain F10 with the row focused",
+      "focused": "quote\"and<angle>brackets.zip › button",
+      "menuOpen": false,
+      "menuItems": [],
+      "menuAt": null,
+      "focusedRowBox": {
+        "left": 249,
+        "bottom": 158
+      },
+      "selection": [
+        "quote\"and<angle>brackets.zip (complete)"
+      ],
+      "rpcSinceLastStep": []
+    },
+    {
+      "step": "8-multi-select",
+      "label": "Two rows selected, focus the second, Shift+F10",
+      "focused": "row quote\"and<angle>brackets.zip",
+      "menuOpen": true,
+      "menuItems": [
+        "Show in folder",
+        "Copy URLs",
+        "Copy File Paths",
+        "Details",
+        "Open Containing Folder",
+        "Add Tag to Selection…",
+        "New Package from Selection",
+        "Remove, Keep Files",
+        "Delete…"
+      ],
+      "menuAt": {
+        "left": 713,
+        "top": 139
+      },
+      "focusedRowBox": {
+        "left": 249,
+        "bottom": 158
+      },
+      "selection": [
+        "annual-report.pdf (complete)",
+        "quote\"and<angle>brackets.zip (complete)"
+      ],
+      "rpcSinceLastStep": []
+    },
+    {
+      "step": "9-menu-on-active-row",
+      "label": "Active Ubuntu row, Shift+F10",
+      "focused": "row Ubuntu 24.04 Desktop.iso",
+      "menuOpen": true,
+      "menuItems": [
+        "Pause",
+        "Show in folder",
+        "Copy URL",
+        "Copy File Path",
+        "Details",
+        "Open Containing Folder",
+        "Add Tag…",
+        "Remove, Keep Files",
+        "Delete…"
+      ],
+      "menuAt": {
+        "left": 744,
+        "top": 133
+      },
+      "focusedRowBox": {
+        "left": 249,
+        "bottom": 151
+      },
+      "selection": [
+        "Ubuntu 24.04 Desktop.iso (active)"
+      ],
+      "rpcSinceLastStep": []
+    },
+    {
+      "step": "10-enter-pause",
+      "label": "Enter on Pause",
+      "focused": "row Ubuntu 24.04 Desktop.iso",
+      "menuOpen": true,
+      "menuItems": [
+        "Pause",
+        "Show in folder",
+        "Copy URL",
+        "Copy File Path",
+        "Details",
+        "Open Containing Folder",
+        "Add Tag…",
+        "Remove, Keep Files",
+        "Delete…"
+      ],
+      "menuAt": {
+        "left": 744,
+        "top": 133
+      },
+      "focusedRowBox": {
+        "left": 249,
+        "bottom": 151
+      },
+      "selection": [
+        "Ubuntu 24.04 Desktop.iso (active)"
+      ],
+      "rpcSinceLastStep": []
+    },
+    {
+      "step": "11-right-click",
+      "label": "Right-click the unselected second row",
+      "focused": "row quote\"and<angle>brackets.zip",
+      "menuOpen": true,
+      "menuItems": [
+        "Show in folder",
+        "Copy URL",
+        "Copy File Path",
+        "Details",
+        "Open Containing Folder",
+        "Add Tag…",
+        "Remove, Keep Files",
+        "Delete…"
+      ],
+      "menuAt": {
+        "left": 749,
+        "top": 139
+      },
+      "focusedRowBox": {
+        "left": 249,
+        "bottom": 158
+      },
+      "selection": [
+        "quote\"and<angle>brackets.zip (complete)"
+      ],
+      "rpcSinceLastStep": [],
+      "pointer": {
+        "x": 749,
+        "y": 140
+      }
+    }
+  ]
+}
