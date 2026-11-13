@@ -1,0 +1,251 @@
+{
+  "url": "http://127.0.0.1:8765/",
+  "servingFix": true,
+  "viewport": {
+    "width": 1256,
+    "height": 670
+  },
+  "inApp": true,
+  "steps": [
+    {
+      "step": "1-open",
+      "label": "Ctrl+Shift+/ opens Help",
+      "sheetBottom": 650,
+      "doneVisible": true,
+      "setupAgainVisible": false,
+      "bodyScrollTop": 0,
+      "focused": ".help-body",
+      "raw": {
+        "open": true,
+        "windowHeight": 670,
+        "sheet": {
+          "top": 12,
+          "bottom": 650,
+          "left": 433,
+          "right": 823
+        },
+        "body": {
+          "top": 70,
+          "bottom": 582,
+          "left": 434,
+          "right": 822
+        },
+        "bodyScrollHeight": 1545,
+        "bodyClientHeight": 512,
+        "bodyScrollTop": 0,
+        "done": {
+          "top": 598,
+          "bottom": 631,
+          "left": 729,
+          "right": 800
+        },
+        "setupAgain": {
+          "top": 1576,
+          "bottom": 1596,
+          "left": 456,
+          "right": 566
+        },
+        "focused": ".help-body",
+        "focusedRect": {
+          "top": 70,
+          "bottom": 582,
+          "left": 434,
+          "right": 822
+        },
+        "focusedInBody": false
+      }
+    },
+    {
+      "step": "2-page-down",
+      "label": "Page Down",
+      "sheetBottom": 650,
+      "doneVisible": true,
+      "setupAgainVisible": false,
+      "bodyScrollTop": 448,
+      "focused": ".help-body",
+      "raw": {
+        "open": true,
+        "windowHeight": 670,
+        "sheet": {
+          "top": 12,
+          "bottom": 650,
+          "left": 433,
+          "right": 823
+        },
+        "body": {
+          "top": 70,
+          "bottom": 582,
+          "left": 434,
+          "right": 822
+        },
+        "bodyScrollHeight": 1545,
+        "bodyClientHeight": 512,
+        "bodyScrollTop": 448,
+        "done": {
+          "top": 598,
+          "bottom": 631,
+          "left": 729,
+          "right": 800
+        },
+        "setupAgain": {
+          "top": 1128,
+          "bottom": 1148,
+          "left": 456,
+          "right": 566
+        },
+        "focused": ".help-body",
+        "focusedRect": {
+          "top": 70,
+          "bottom": 582,
+          "left": 434,
+          "right": 822
+        },
+        "focusedInBody": false
+      }
+    },
+    {
+      "step": "3-end",
+      "label": "End",
+      "sheetBottom": 650,
+      "doneVisible": true,
+      "setupAgainVisible": true,
+      "bodyScrollTop": 1033,
+      "focused": ".help-body",
+      "raw": {
+        "open": true,
+        "windowHeight": 670,
+        "sheet": {
+          "top": 12,
+          "bottom": 650,
+          "left": 433,
+          "right": 823
+        },
+        "body": {
+          "top": 70,
+          "bottom": 582,
+          "left": 434,
+          "right": 822
+        },
+        "bodyScrollHeight": 1545,
+        "bodyClientHeight": 512,
+        "bodyScrollTop": 1033,
+        "done": {
+          "top": 598,
+          "bottom": 631,
+          "left": 729,
+          "right": 800
+        },
+        "setupAgain": {
+          "top": 543,
+          "bottom": 563,
+          "left": 456,
+          "right": 566
+        },
+        "focused": ".help-body",
+        "focusedRect": {
+          "top": 70,
+          "bottom": 582,
+          "left": 434,
+          "right": 822
+        },
+        "focusedInBody": false
+      }
+    },
+    {
+      "step": "4-tab-to-done",
+      "label": "Tab from close button until Done",
+      "sheetBottom": 650,
+      "doneVisible": true,
+      "setupAgainVisible": true,
+      "bodyScrollTop": 1013,
+      "focused": "#help-done",
+      "raw": {
+        "open": true,
+        "windowHeight": 670,
+        "sheet": {
+          "top": 12,
+          "bottom": 650,
+          "left": 433,
+          "right": 823
+        },
+        "body": {
+          "top": 70,
+          "bottom": 582,
+          "left": 434,
+          "right": 822
+        },
+        "bodyScrollHeight": 1545,
+        "bodyClientHeight": 512,
+        "bodyScrollTop": 1013,
+        "done": {
+          "top": 598,
+          "bottom": 631,
+          "left": 729,
+          "right": 800
+        },
+        "setupAgain": {
+          "top": 563,
+          "bottom": 583,
+          "left": 456,
+          "right": 566
+        },
+        "focused": "#help-done",
+        "focusedRect": {
+          "top": 598,
+          "bottom": 631,
+          "left": 729,
+          "right": 800
+        },
+        "focusedInBody": false
+      }
+    }
+  ],
+  "tabWalk": [
+    {
+      "press": 1,
+      "focused": ".help-body",
+      "onScreen": true
+    },
+    {
+      "press": 2,
+      "focused": "a:Docs",
+      "onScreen": true
+    },
+    {
+      "press": 3,
+      "focused": "a:Docs",
+      "onScreen": true
+    },
+    {
+      "press": 4,
+      "focused": "a:Docs",
+      "onScreen": true
+    },
+    {
+      "press": 5,
+      "focused": "a:Docs",
+      "onScreen": true
+    },
+    {
+      "press": 6,
+      "focused": "a:Docs",
+      "onScreen": true
+    },
+    {
+      "press": 7,
+      "focused": "a:Docs",
+      "onScreen": true
+    },
+    {
+      "press": 8,
+      "focused": "#help-setup",
+      "onScreen": true
+    },
+    {
+      "press": 9,
+      "focused": "#help-done",
+      "onScreen": true
+    }
+  ],
+  "closedOnEscape": true
+}
