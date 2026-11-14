@@ -1,0 +1,12 @@
+✔ desktop housekeeping matches Download menu verbs (0.456314ms)
+✔ tray actions use the single global menu dispatcher (2.260518ms)
+✔ a poll completes an interrupted large-list filter without repeating clean passes (53.15883ms)
+✔ finished rows from earlier runs come back only where aria2 has none (0.589417ms)
+ℹ tests 80
+ℹ suites 0
+ℹ pass 80
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 464.330905

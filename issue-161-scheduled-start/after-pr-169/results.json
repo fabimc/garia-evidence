@@ -1,0 +1,188 @@
+{
+  "aria2": "1.37.0",
+  "src": "/home/fabimc/.herdr/worktrees/garia/worktree-calm-field-98d1/src",
+  "startAt": 1794676314,
+  "steps": [
+    {
+      "step": "1-add-dialog",
+      "label": "Add download: URL entered, Options → Start at a time ticked, set to 11:11:54 AM (40s ahead)",
+      "now": 1794676274,
+      "rows": [],
+      "statusBar": [
+        "aria2 · 127.0.0.1:6800",
+        "no downloads"
+      ],
+      "scheduleJson": null,
+      "fileServerRequests": [],
+      "aria2": {
+        "active": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": []
+        },
+        "waiting": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": []
+        },
+        "stopped": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": []
+        }
+      }
+    },
+    {
+      "step": "2-after-add",
+      "label": "Row right after Download",
+      "now": 1794676277,
+      "rows": [
+        {
+          "gid": "02fbfac057a32733",
+          "name": "scheduled-161.bin",
+          "status": "paused",
+          "text": "scheduled-161.bin — Scheduled — —"
+        }
+      ],
+      "statusBar": [
+        "aria2 · 127.0.0.1:6800",
+        "1 paused",
+        "· 1 held"
+      ],
+      "scheduleJson": {
+        "starts": {
+          "02fbfac057a32733": 1794676314
+        },
+        "held": [
+          "02fbfac057a32733"
+        ]
+      },
+      "fileServerRequests": [],
+      "aria2": {
+        "active": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": []
+        },
+        "waiting": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": [
+            {
+              "completedLength": "0",
+              "gid": "02fbfac057a32733",
+              "status": "paused"
+            }
+          ]
+        },
+        "stopped": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": []
+        }
+      }
+    },
+    {
+      "step": "3-just-before-start",
+      "label": "About 5 s before the start time",
+      "now": 1794676309,
+      "rows": [
+        {
+          "gid": "02fbfac057a32733",
+          "name": "scheduled-161.bin",
+          "status": "paused",
+          "text": "scheduled-161.bin — Scheduled — —"
+        }
+      ],
+      "statusBar": [
+        "aria2 · 127.0.0.1:6800",
+        "1 paused",
+        "· 1 held"
+      ],
+      "scheduleJson": {
+        "starts": {
+          "02fbfac057a32733": 1794676314
+        },
+        "held": [
+          "02fbfac057a32733"
+        ]
+      },
+      "fileServerRequests": [],
+      "aria2": {
+        "active": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": []
+        },
+        "waiting": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": [
+            {
+              "completedLength": "0",
+              "gid": "02fbfac057a32733",
+              "status": "paused"
+            }
+          ]
+        },
+        "stopped": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": []
+        }
+      }
+    },
+    {
+      "step": "4-after-start",
+      "label": "About 8 s after the start time",
+      "now": 1794676322,
+      "rows": [
+        {
+          "gid": "02fbfac057a32733",
+          "name": "scheduled-161.bin",
+          "status": "complete",
+          "text": "scheduled-161.bin 8.0 MB Done — —"
+        }
+      ],
+      "statusBar": [
+        "aria2 · 127.0.0.1:6800",
+        "1 done"
+      ],
+      "scheduleJson": {
+        "starts": {},
+        "held": []
+      },
+      "fileServerRequests": [
+        {
+          "at": 1794676314,
+          "method": "GET",
+          "url": "/scheduled-161.bin",
+          "range": null
+        }
+      ],
+      "aria2": {
+        "active": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": []
+        },
+        "waiting": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": []
+        },
+        "stopped": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": [
+            {
+              "completedLength": "8388608",
+              "gid": "02fbfac057a32733",
+              "status": "complete"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
