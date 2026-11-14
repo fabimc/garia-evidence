@@ -1,0 +1,87 @@
+{
+  "aria2": "1.37.0",
+  "src": "/home/fabimc/.herdr/worktrees/garia/worktree-green-harbor-d7e3/src",
+  "steps": [
+    {
+      "step": "1-add-to-queue",
+      "label": "Add download: URL entered, Add to queue selected",
+      "focused": "input",
+      "rows": [],
+      "notice": null,
+      "rpcSinceLastStep": [],
+      "aria2": {
+        "active": [],
+        "waiting": [],
+        "stopped": []
+      }
+    },
+    {
+      "step": "2-queued-row",
+      "label": "Queued row after Add to queue",
+      "focused": "#open-modal-btn",
+      "rows": [
+        {
+          "gid": "aa3ed7eaa313938f",
+          "name": "1Mb.dat",
+          "status": "paused"
+        }
+      ],
+      "notice": null,
+      "rpcSinceLastStep": [
+        "aria2.addUri([[\"https://proof.ovh.net/files/1Mb.dat\"],{\"seed-ratio\":\"1\",\"pause\":\"true\"}])"
+      ],
+      "aria2": {
+        "active": [],
+        "waiting": [
+          {
+            "gid": "aa3ed7eaa313938f",
+            "status": "paused"
+          }
+        ],
+        "stopped": []
+      }
+    },
+    {
+      "step": "3-confirm-sheet",
+      "label": "Row selected, Ctrl+Delete",
+      "focused": "#confirm-cancel",
+      "rows": [
+        {
+          "gid": "aa3ed7eaa313938f",
+          "name": "1Mb.dat",
+          "status": "paused"
+        }
+      ],
+      "notice": null,
+      "rpcSinceLastStep": [],
+      "aria2": {
+        "active": [],
+        "waiting": [
+          {
+            "gid": "aa3ed7eaa313938f",
+            "status": "paused"
+          }
+        ],
+        "stopped": []
+      }
+    },
+    {
+      "step": "4-after-delete",
+      "label": "Tab (focus on #confirm-delete), Enter",
+      "focused": "body",
+      "rows": [],
+      "notice": null,
+      "rpcSinceLastStep": [
+        "aria2.remove([\"aa3ed7eaa313938f\"])",
+        "aria2.removeDownloadResult([\"aa3ed7eaa313938f\"])",
+        "aria2.removeDownloadResult([\"aa3ed7eaa313938f\"])",
+        "aria2.removeDownloadResult([\"aa3ed7eaa313938f\"])"
+      ],
+      "aria2": {
+        "active": [],
+        "waiting": [],
+        "stopped": []
+      }
+    }
+  ]
+}

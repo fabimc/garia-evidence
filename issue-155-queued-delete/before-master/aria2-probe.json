@@ -1,0 +1,23 @@
+{
+  "aria2": "1.37.0",
+  "gid": "61498ad28f822e18",
+  "statusAfterAdd": "paused",
+  "remove": {
+    "id": 5,
+    "jsonrpc": "2.0",
+    "result": "61498ad28f822e18"
+  },
+  "removeDownloadResult": {
+    "id": 6,
+    "jsonrpc": "2.0",
+    "error": {
+      "code": 1,
+      "message": "GID 61498ad28f822e18 is not found"
+    }
+  },
+  "after": {
+    "active": [],
+    "waiting": [],
+    "stopped": []
+  }
+}
