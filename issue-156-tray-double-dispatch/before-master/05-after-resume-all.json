@@ -1,0 +1,23 @@
+{
+  "active": [
+    {
+      "gid": "d1ef0117e7cfdf89",
+      "status": "active",
+      "errorCode": null,
+      "connections": "16",
+      "completedLength": "37322752",
+      "uri": "http://127.0.0.1:8791/big.bin"
+    }
+  ],
+  "waiting": [],
+  "stopped": [
+    {
+      "gid": "33c207096358d3ee",
+      "status": "error",
+      "errorCode": "3",
+      "connections": "0",
+      "completedLength": "0",
+      "uri": "http://127.0.0.1:8791/missing.bin"
+    }
+  ]
+}

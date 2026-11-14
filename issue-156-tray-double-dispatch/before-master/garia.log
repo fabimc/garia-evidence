@@ -1,0 +1,4 @@
+[garia] Started aria2c via /tmp/garia-184/before/aria2c
+[garia] No bundled yt-dlp — video downloads need one on the machine. Fetch it with: npm run sidecar
+
+(garia:30722): libayatana-appindicator-WARNING **: 09:51:19.470: libayatana-appindicator is deprecated. Please use libayatana-appindicator-glib in newly written code.

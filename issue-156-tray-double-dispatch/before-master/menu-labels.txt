@@ -1,0 +1,10 @@
+2 New Download
+4 Pause All
+5 Resume All
+7 Stop Queue
+8 Start Queue
+10 Retry Failed
+11 Clear Completed
+13 Open Download Folder
+15 Show Garia
+17 Quit

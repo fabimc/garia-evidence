@@ -1,0 +1,28 @@
+09:51:18.217 launched /tmp/garia-184/before/garia pid=30722
+09:51:19.834 window {"address":"0x55c428d927e0","at":[12,38],"size":[1256,670],"workspace":"1","mapped":true,"hidden":false}; aria2 port=34637
+09:51:24.242 screenshot 01-launched.png
+09:51:29.660 screenshot 02-two-downloads.png
+09:51:29.705 aria2 02-two-downloads.json: ["big.bin:active:conn=16","missing.bin:error:conn=0"]
+09:51:29.740 tray item :1.127 menu /org/ayatana/NotificationItem/tray_icon_tray_app_status/Menu
+09:51:29.755 menu: 2 New Download,4 Pause All,5 Resume All,7 Stop Queue,8 Start Queue,10 Retry Failed,11 Clear Completed,13 Open Download Folder,15 Show Garia,17 Quit
+09:51:30.792 hid window 0x55c428d927e0; garia clients now: 0
+09:51:30.844 aria2 03-hidden.json: ["big.bin:active:conn=16","missing.bin:error:conn=0"]
+09:51:30.867 tray click "Pause All" (id 4)
+09:51:32.494 screenshot 04-after-pause-all.png
+09:51:32.535 aria2 04-after-pause-all.json: ["big.bin:paused:conn=0","missing.bin:error:conn=0"]
+09:51:33.572 hid window 0x55c428d927e0; garia clients now: 0
+09:51:33.587 tray click "Resume All" (id 5)
+09:51:35.219 screenshot 05-after-resume-all.png
+09:51:35.257 aria2 05-after-resume-all.json: ["big.bin:active:conn=16","missing.bin:error:conn=0"]
+09:51:36.288 hid window 0x55c428d927e0; garia clients now: 0
+09:51:36.304 tray click "Retry Failed" (id 10)
+09:51:39.461 screenshot 06-after-retry-failed.png
+09:51:39.500 aria2 06-after-retry-failed.json: ["big.bin:active:conn=16","missing.bin:error:conn=0","missing.bin:error:conn=0"]
+09:51:40.541 hid window 0x55c428d927e0; garia clients now: 0
+09:51:40.559 tray click "Show Garia" (id 15)
+09:51:42.078 after Show Garia: {"address":"0x55c428d927e0","at":[12,38],"size":[1256,670],"workspace":"1","mapped":true,"hidden":false}
+09:51:42.216 screenshot 07-after-show.png
+09:51:43.247 hid window 0x55c428d927e0; garia clients now: 0
+09:51:43.262 tray click "Quit" (id 17)
+09:51:44.511 after Quit: garia alive=no; aria2c children=1
+09:51:44.541 done

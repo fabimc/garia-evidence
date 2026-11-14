@@ -1,0 +1,31 @@
+{
+  "active": [
+    {
+      "gid": "d1ef0117e7cfdf89",
+      "status": "active",
+      "errorCode": null,
+      "connections": "16",
+      "completedLength": "59375616",
+      "uri": "http://127.0.0.1:8791/big.bin"
+    }
+  ],
+  "waiting": [],
+  "stopped": [
+    {
+      "gid": "02c1f1da95a651dc",
+      "status": "error",
+      "errorCode": "3",
+      "connections": "0",
+      "completedLength": "0",
+      "uri": "http://127.0.0.1:8791/missing.bin"
+    },
+    {
+      "gid": "8ab3251d1c35ca6e",
+      "status": "error",
+      "errorCode": "3",
+      "connections": "0",
+      "completedLength": "0",
+      "uri": "http://127.0.0.1:8791/missing.bin"
+    }
+  ]
+}
