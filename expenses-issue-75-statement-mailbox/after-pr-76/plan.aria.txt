@@ -1,0 +1,99 @@
+- main:
+  - heading "Plan — November 2026" [level=2]
+  - paragraph: What's left this month, and what the wallets look like from the last number you typed.
+  - text: Month
+  - textbox "Month": 2026-11
+  - region "Getting started":
+    - heading "Getting started" [level=2]
+    - paragraph: Two things make leftover a real number. This list goes away when they are true.
+    - heading "Bring money in" [level=3]
+    - paragraph: Mint a feed API key for grokbot, import a BAC statement, or record a cash purchase.
+    - paragraph:
+      - link "Mint a feed key":
+        - /url: /settings#feed
+      - link "Import a statement":
+        - /url: /settings#import
+      - link "Record a transaction":
+        - /url: /transactions
+    - heading "Make leftover real" [level=3]
+    - paragraph: Confirm repeating bills, or set planned spend, to see what's left this month.
+    - paragraph:
+      - link "Set planned spend":
+        - /url: /budgets
+  - region "Left this month":
+    - paragraph: Left this month
+    - paragraph: $0.00
+    - paragraph: $0.00 a day for 17 days left
+  - group:
+    - text: How leftover is built ▾
+    - paragraph: Income
+    - paragraph: $0.00
+    - paragraph: Bills
+    - paragraph: $0.00
+    - paragraph: Planned
+    - paragraph: $0.00
+    - paragraph: No category budgets this month.
+    - paragraph: Goals
+    - paragraph: $0.00
+    - paragraph: No savings commitments this month.
+    - paragraph: Other
+    - paragraph: $0.00
+  - region "Cash flow":
+    - heading "Cash flow" [level=3]
+    - group "Projection horizon":
+      - button "3 months"
+      - button "6 months" [pressed]
+      - button "12 months"
+    - paragraph:
+      - text: Type a checking, cash, or savings balance in
+      - link "Settings":
+        - /url: /settings
+      - text: . Cash flow starts from that last-known number, then bills still due and anything already dated ahead. Planned spend and goals have no date, so they stay in leftover.
+  - region "Net worth":
+    - heading "Net worth" [level=3]
+    - paragraph:
+      - link "Add a wallet":
+        - /url: /settings
+      - text: ", or add a car or cash you don't keep in a wallet below. Last-known, not live."
+    - text: Asset
+    - textbox "Asset"
+    - text: Value
+    - textbox "Value":
+      - /placeholder: "4000000"
+    - text: As of
+    - textbox "As of": 2026-11-14
+    - button "Add asset"
+  - region "Bills this month":
+    - heading "Bills this month" [level=2]
+    - paragraph: No confirmed bills in USD this month.
+  - region "Subscriptions":
+    - heading "Subscriptions" [level=2]
+    - paragraph: No confirmed subscriptions in USD.
+  - region "Savings goals":
+    - heading "Savings goals" [level=2]
+    - paragraph: A monthly amount you mean to set aside. Leftover subtracts it; nothing is moved in the ledger.
+    - text: Name
+    - textbox "Name"
+    - text: Monthly amount
+    - textbox "Monthly amount":
+      - /placeholder: "100000"
+    - text: Target (optional)
+    - textbox "Target (optional)"
+    - text: Saved so far (optional)
+    - textbox "Saved so far (optional)"
+    - button "Add goal"
+  - region "Watchlists":
+    - heading "Watchlists" [level=2]
+    - paragraph: A threshold on a category. Leftover does not subtract it — you will just see when spending crosses it.
+  - region "Looks recurring":
+    - heading "Looks recurring" [level=2]
+    - paragraph: Nothing new repeating in the last year.
+  - paragraph:
+    - link "This month's activity":
+      - /url: /dashboard
+    - text: ·
+    - link "Edit planned spend":
+      - /url: /budgets
+    - text: ·
+    - link "Bank statements":
+      - /url: /statements

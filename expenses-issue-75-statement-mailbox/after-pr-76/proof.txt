@@ -1,0 +1,34 @@
+fixture tag M6ED4
+route: / (Plan), /statements, /transactions (Ledger); API /api/household/invites, /api/auth/register,
+/api/feed/keys, /api/feed/v1/{transactions,statements}
+2026-11-14T19:39:49.249Z PASS /api/me status 200
+2026-11-14T19:39:49.249Z PASS /api/me is the verify account
+2026-11-14T19:39:49.249Z PASS owner user id read from /api/me
+2026-11-14T19:39:50.630Z PASS Plan disclosure shows Income and Bills rows
+2026-11-14T19:39:51.246Z PASS owner created an invite (201)
+2026-11-14T19:39:52.120Z PASS Leonor registered (201)
+2026-11-14T19:39:52.986Z PASS Leonor accepted the invite (200)
+2026-11-14T19:39:53.602Z PASS household now lists Leonor as a member
+2026-11-14T19:39:54.078Z PASS minted a feed key (201)
+2026-11-14T19:39:57.092Z PASS feed created 3 rows
+2026-11-14T19:39:58.245Z PASS non-member mailboxEmail refused (400)
+2026-11-14T19:39:58.245Z PASS refusal says not a member: mailboxEmail "stranger@example.test" is not a member of this household
+2026-11-14T19:39:58.728Z PASS ledger untouched after refusal
+2026-11-14T19:39:59.102Z PASS no statement row written by the refusal
+2026-11-14T19:40:01.142Z PASS Leonor's statement accepted (200)
+2026-11-14T19:40:01.142Z PASS counts {"lines":3,"matched":1,"created":1,"needsReview":1,"missing":1}
+2026-11-14T19:40:03.063Z PASS statement without mailboxEmail accepted, 1 created (200)
+2026-11-14T19:40:03.580Z PASS Leonor's created fee is credited to Leonor
+2026-11-14T19:40:03.580Z PASS fee from a statement without mailboxEmail is credited to the key's member
+2026-11-14T19:40:03.580Z PASS matched feed row keeps its original recorder
+2026-11-14T19:40:07.103Z PASS owner resolved the review line with None of these — add it
+2026-11-14T19:40:07.674Z tipped rows recorders ["leonor","owner"]
+2026-11-14T19:40:07.674Z PASS review-queue create is credited to Leonor (statement's person), not the reviewing owner; the feed row stays the owner's
+2026-11-14T19:40:07.674Z PASS the statement-sourced tip row's recordedBy is Leonor
+2026-11-14T19:40:09.852Z PASS Ledger Who shows Leonor on her statement's fee
+2026-11-14T19:40:09.854Z PASS Ledger Who shows the key's member on the fallback fee
+2026-11-14T19:40:10.462Z PASS Recorded by Leonor shows only her 2 statement rows (2, others 0)
+2026-11-14T19:40:10.876Z PASS feed key revoked (200)
+persistent state: disposable local Docker DB only. Created a second user (Leonor) joined by invite,
+1 feed key (revoked), 3 feed rows, 2 statements (one review line resolved as a new row); the refused
+statement wrote nothing. No password change, shared DB, or human account was touched.

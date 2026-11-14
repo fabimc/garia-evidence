@@ -1,0 +1,270 @@
+- main:
+  - heading "Transactions" [level=2]
+  - paragraph: 6 transactions
+  - link "Download CSV":
+    - /url: /api/transactions/export?filter=all&search=M6ED4
+  - button "New transaction"
+  - paragraph: 6 to file
+  - button "Start queue"
+  - button "Previous month": ‹
+  - text: Month
+  - textbox "Month"
+  - button "Next month": ›
+  - text: Search transactions
+  - searchbox "Search transactions": M6ED4
+  - text: Filter category
+  - combobox "Filter category":
+    - option "All categories" [selected]
+    - option "Income"
+    - option "Groceries"
+    - option "Dining & Takeout"
+    - option "Transport"
+    - option "Fuel"
+    - option "Housing"
+    - option "Utilities"
+    - option "Health"
+    - option "Insurance"
+    - option "Shopping"
+    - option "Entertainment"
+    - option "Subscriptions"
+    - option "Travel"
+    - option "Education"
+    - option "Personal Care"
+    - option "Gifts & Donations"
+    - option "Fees & Interest"
+    - option "Taxes"
+    - option "Transfers"
+    - option "Investments"
+    - option "Uncategorized"
+  - text: Statement
+  - combobox "Statement":
+    - option "Any" [selected]
+    - option "Confirmed"
+    - option "Not on statement"
+    - option "Not yet covered"
+  - text: Recorded by
+  - combobox "Recorded by":
+    - option "Everyone" [selected]
+    - option "Me"
+    - option "Leonor Verify"
+  - group "Filter transactions":
+    - button "Needs filing, 6 transactions": Needs filing (6)
+    - button "All" [pressed]
+  - table:
+    - rowgroup:
+      - row "Sort by date, ascending Sort by merchant, ascending Who Sort by category, ascending Sort by amount, ascending":
+        - columnheader "Sort by date, ascending":
+          - button "Sort by date, ascending": Date
+        - columnheader "Sort by merchant, ascending":
+          - button "Sort by merchant, ascending": Merchant
+        - columnheader "Who"
+        - columnheader "Sort by category, ascending":
+          - button "Sort by category, ascending": Category
+        - columnheader "Sort by amount, ascending":
+          - button "Sort by amount, ascending": Amount
+        - columnheader
+    - rowgroup:
+      - row "Oct 20, 2026 Comision Leonor M6ed4 BAC Credomatic Confirmed Leonor Category for Comision Leonor M6ed4 Uncategorized Split -$8.50 Leave out of leftover":
+        - cell "Oct 20, 2026"
+        - cell "Comision Leonor M6ed4 BAC Credomatic Confirmed":
+          - paragraph: Comision Leonor M6ed4
+          - paragraph: BAC Credomatic Confirmed
+        - cell "Leonor"
+        - cell "Category for Comision Leonor M6ed4 Uncategorized Split":
+          - text: Category for Comision Leonor M6ed4
+          - combobox "Category for Comision Leonor M6ed4":
+            - option "Uncategorized" [selected]
+            - option "Income"
+            - option "Groceries"
+            - option "Dining & Takeout"
+            - option "Transport"
+            - option "Fuel"
+            - option "Housing"
+            - option "Utilities"
+            - option "Health"
+            - option "Insurance"
+            - option "Shopping"
+            - option "Entertainment"
+            - option "Subscriptions"
+            - option "Travel"
+            - option "Education"
+            - option "Personal Care"
+            - option "Gifts & Donations"
+            - option "Fees & Interest"
+            - option "Taxes"
+            - option "Transfers"
+            - option "Investments"
+          - button "Split"
+        - cell "-$8.50"
+        - cell "Leave out of leftover":
+          - button "Leave out of leftover"
+      - row "Oct 15, 2026 Uber BAC Credomatic · ••9911 Not on statement Verify Category for Uber Uncategorized Split -$15.00 Leave out of leftover":
+        - cell "Oct 15, 2026"
+        - cell "Uber BAC Credomatic · ••9911 Not on statement":
+          - paragraph: Uber
+          - paragraph: BAC Credomatic · ••9911 Not on statement
+        - cell "Verify"
+        - cell "Category for Uber Uncategorized Split":
+          - text: Category for Uber
+          - combobox "Category for Uber":
+            - option "Uncategorized" [selected]
+            - option "Income"
+            - option "Groceries"
+            - option "Dining & Takeout"
+            - option "Transport"
+            - option "Fuel"
+            - option "Housing"
+            - option "Utilities"
+            - option "Health"
+            - option "Insurance"
+            - option "Shopping"
+            - option "Entertainment"
+            - option "Subscriptions"
+            - option "Travel"
+            - option "Education"
+            - option "Personal Care"
+            - option "Gifts & Donations"
+            - option "Fees & Interest"
+            - option "Taxes"
+            - option "Transfers"
+            - option "Investments"
+          - button "Split"
+        - cell "-$15.00"
+        - cell "Leave out of leftover":
+          - button "Leave out of leftover"
+      - row "Oct 12, 2026 Restaurante Silvestre M6ed4 BAC Credomatic Confirmed Leonor Category for Restaurante Silvestre M6ed4 Uncategorized Split -$46.00 Leave out of leftover":
+        - cell "Oct 12, 2026"
+        - cell "Restaurante Silvestre M6ed4 BAC Credomatic Confirmed":
+          - paragraph: Restaurante Silvestre M6ed4
+          - paragraph: BAC Credomatic Confirmed
+        - cell "Leonor"
+        - cell "Category for Restaurante Silvestre M6ed4 Uncategorized Split":
+          - text: Category for Restaurante Silvestre M6ed4
+          - combobox "Category for Restaurante Silvestre M6ed4":
+            - option "Uncategorized" [selected]
+            - option "Income"
+            - option "Groceries"
+            - option "Dining & Takeout"
+            - option "Transport"
+            - option "Fuel"
+            - option "Housing"
+            - option "Utilities"
+            - option "Health"
+            - option "Insurance"
+            - option "Shopping"
+            - option "Entertainment"
+            - option "Subscriptions"
+            - option "Travel"
+            - option "Education"
+            - option "Personal Care"
+            - option "Gifts & Donations"
+            - option "Fees & Interest"
+            - option "Taxes"
+            - option "Transfers"
+            - option "Investments"
+          - button "Split"
+        - cell "-$46.00"
+        - cell "Leave out of leftover":
+          - button "Leave out of leftover"
+      - row "Oct 10, 2026 Restaurante Silvestre M6ed4 BAC Credomatic · ••9911 Not on statement Verify Category for Restaurante Silvestre M6ed4 Uncategorized Split -$40.00 Leave out of leftover":
+        - cell "Oct 10, 2026"
+        - cell "Restaurante Silvestre M6ed4 BAC Credomatic · ••9911 Not on statement":
+          - paragraph: Restaurante Silvestre M6ed4
+          - paragraph: BAC Credomatic · ••9911 Not on statement
+        - cell "Verify"
+        - cell "Category for Restaurante Silvestre M6ed4 Uncategorized Split":
+          - text: Category for Restaurante Silvestre M6ed4
+          - combobox "Category for Restaurante Silvestre M6ed4":
+            - option "Uncategorized" [selected]
+            - option "Income"
+            - option "Groceries"
+            - option "Dining & Takeout"
+            - option "Transport"
+            - option "Fuel"
+            - option "Housing"
+            - option "Utilities"
+            - option "Health"
+            - option "Insurance"
+            - option "Shopping"
+            - option "Entertainment"
+            - option "Subscriptions"
+            - option "Travel"
+            - option "Education"
+            - option "Personal Care"
+            - option "Gifts & Donations"
+            - option "Fees & Interest"
+            - option "Taxes"
+            - option "Transfers"
+            - option "Investments"
+          - button "Split"
+        - cell "-$40.00"
+        - cell "Leave out of leftover":
+          - button "Leave out of leftover"
+      - row "Oct 10, 2026 ChatGPT BAC Credomatic · ••9911 Confirmed Verify Category for ChatGPT Uncategorized Split -$20.00 Leave out of leftover":
+        - cell "Oct 10, 2026"
+        - cell "ChatGPT BAC Credomatic · ••9911 Confirmed":
+          - paragraph: ChatGPT
+          - paragraph: BAC Credomatic · ••9911 Confirmed
+        - cell "Verify"
+        - cell "Category for ChatGPT Uncategorized Split":
+          - text: Category for ChatGPT
+          - combobox "Category for ChatGPT":
+            - option "Uncategorized" [selected]
+            - option "Income"
+            - option "Groceries"
+            - option "Dining & Takeout"
+            - option "Transport"
+            - option "Fuel"
+            - option "Housing"
+            - option "Utilities"
+            - option "Health"
+            - option "Insurance"
+            - option "Shopping"
+            - option "Entertainment"
+            - option "Subscriptions"
+            - option "Travel"
+            - option "Education"
+            - option "Personal Care"
+            - option "Gifts & Donations"
+            - option "Fees & Interest"
+            - option "Taxes"
+            - option "Transfers"
+            - option "Investments"
+          - button "Split"
+        - cell "-$20.00"
+        - cell "Leave out of leftover":
+          - button "Leave out of leftover"
+      - row "Sep 20, 2026 Comision Owner M6ed4 BAC Credomatic Confirmed Verify Category for Comision Owner M6ed4 Uncategorized Split -$8.50 Leave out of leftover":
+        - cell "Sep 20, 2026"
+        - cell "Comision Owner M6ed4 BAC Credomatic Confirmed":
+          - paragraph: Comision Owner M6ed4
+          - paragraph: BAC Credomatic Confirmed
+        - cell "Verify"
+        - cell "Category for Comision Owner M6ed4 Uncategorized Split":
+          - text: Category for Comision Owner M6ed4
+          - combobox "Category for Comision Owner M6ed4":
+            - option "Uncategorized" [selected]
+            - option "Income"
+            - option "Groceries"
+            - option "Dining & Takeout"
+            - option "Transport"
+            - option "Fuel"
+            - option "Housing"
+            - option "Utilities"
+            - option "Health"
+            - option "Insurance"
+            - option "Shopping"
+            - option "Entertainment"
+            - option "Subscriptions"
+            - option "Travel"
+            - option "Education"
+            - option "Personal Care"
+            - option "Gifts & Donations"
+            - option "Fees & Interest"
+            - option "Taxes"
+            - option "Transfers"
+            - option "Investments"
+          - button "Split"
+        - cell "-$8.50"
+        - cell "Leave out of leftover":
+          - button "Leave out of leftover"

@@ -1,0 +1,9 @@
+{
+  "status": 400,
+  "body": {
+    "error": {
+      "code": "bad_request",
+      "message": "mailboxEmail \"stranger@example.test\" is not a member of this household"
+    }
+  }
+}

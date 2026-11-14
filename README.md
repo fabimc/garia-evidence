@@ -1,9 +1,10 @@
 # garia-evidence
 
-Verification evidence (screenshots and data) for [fabimc/garia](https://github.com/fabimc/garia) issues and pull requests. Each folder covers one issue.
+Verification evidence (screenshots and data) for [fabimc/garia](https://github.com/fabimc/garia) issues and pull requests, plus `expenses-*` folders for [fabimc/expenses](https://github.com/fabimc/expenses). Each folder covers one issue.
 
 | Folder | Issue | Pull request |
 | --- | --- | --- |
+| [`expenses-issue-75-statement-mailbox/`](expenses-issue-75-statement-mailbox/) | [fabimc/expenses#75](https://github.com/fabimc/expenses/issues/75): Statement endpoint credits every new row to the key's member | [fabimc/expenses#76](https://github.com/fabimc/expenses/pull/76) |
 | [`issue-129-large-list/`](issue-129-large-list/) | [#129](https://github.com/fabimc/garia/issues/129): Keep large download lists smooth on WebKitGTK (keyboard selection) | [#183](https://github.com/fabimc/garia/pull/183) |
 | [`issue-152-help-scroll/`](issue-152-help-scroll/) | [#152](https://github.com/fabimc/garia/issues/152): Help sheet clipped and can't scroll at 720 px logical height | [#188](https://github.com/fabimc/garia/pull/188) |
 | [`issue-153-row-button-keys/`](issue-153-row-button-keys/) | [#153](https://github.com/fabimc/garia/issues/153): Enter/Space on a row's action buttons is swallowed by the list keyboard handler | [#187](https://github.com/fabimc/garia/pull/187) |
