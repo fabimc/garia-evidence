@@ -1,0 +1,22 @@
+- main:
+  - heading "Statements" [level=2]
+  - paragraph: Official bank statements, matched against what the feed already recorded.
+  - region "Needs review":
+    - heading "Needs review" [level=2]
+    - paragraph: Nothing to review. Every statement line is matched or recorded.
+  - region "Received":
+    - heading "Received" [level=2]
+    - list:
+      - listitem:
+        - paragraph: Davivienda · ••1234 · USD
+        - paragraph: Oct 4, 2026 – Nov 3, 2026
+        - paragraph: 0 matched · 1 added
+        - button "Undo…"
+      - listitem:
+        - paragraph: Davivienda · ••1234 · CRC
+        - paragraph: Oct 4, 2026 – Nov 3, 2026
+        - paragraph:
+          - text: 3 matched · 2 added ·
+          - link "1 not on statement":
+            - /url: /transactions?reconciliation=not_on_statement&month=all
+        - button "Undo…"

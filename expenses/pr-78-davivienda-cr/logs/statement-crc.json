@@ -1,0 +1,15 @@
+{
+  "status": 200,
+  "body": {
+    "statementId": "73060ffa-282f-401e-b322-a0c80ec1316b",
+    "alreadyReceived": false,
+    "counts": {
+      "lines": 5,
+      "matched": 3,
+      "created": 2,
+      "needsReview": 0,
+      "missing": 1
+    },
+    "failures": []
+  }
+}

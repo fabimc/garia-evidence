@@ -1,0 +1,138 @@
+
+  VITE v7.3.6  ready in 166 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: use --host to expose
+Local login ready for [verify account]
+Listening on http://localhost:8001
+<-- GET /api/health
+--> GET /api/health 200 122ms
+<-- GET /api/health
+--> GET /api/health 200 127ms
+<-- GET /api/me
+--> GET /api/me 401 1ms
+<-- POST /api/auth/login
+--> POST /api/auth/login 401 149ms
+<-- POST /api/auth/login
+--> POST /api/auth/login 200 387ms
+<-- GET /api/me
+--> GET /api/me 200 235ms
+<-- GET /api/me
+<-- GET /api/plan?horizon=6
+<-- GET /api/transactions?filter=uncategorized&sort=date&direction=desc&limit=1&offset=0
+<-- GET /api/statements
+--> GET /api/me 200 325ms
+--> GET /api/statements 200 659ms
+--> GET /api/transactions?filter=uncategorized&sort=date&direction=desc&limit=1&offset=0 200 685ms
+--> GET /api/plan?horizon=6 200 1s
+<-- GET /api/categories
+--> GET /api/categories 200 375ms
+<-- GET /api/accounts
+<-- GET /api/banks
+<-- GET /api/feed/keys
+<-- GET /api/household
+<-- GET /api/health
+--> GET /api/health 200 194ms
+--> GET /api/banks 200 313ms
+<-- GET /api/banks
+--> GET /api/accounts 200 485ms
+--> GET /api/feed/keys 200 511ms
+--> GET /api/banks 200 319ms
+<-- POST /api/feed/keys
+--> GET /api/household 200 846ms
+--> POST /api/feed/keys 201 537ms
+<-- GET /api/me
+--> GET /api/me 200 231ms
+<-- GET /api/accounts
+<-- GET /api/banks
+<-- GET /api/feed/keys
+<-- GET /api/household
+<-- GET /api/categories
+<-- GET /api/health
+--> GET /api/health 200 226ms
+--> GET /api/banks 200 352ms
+--> GET /api/feed/keys 200 519ms
+--> GET /api/accounts 200 569ms
+--> GET /api/categories 200 582ms
+--> GET /api/household 200 775ms
+<-- POST /api/feed/v1/transactions
+--> POST /api/feed/v1/transactions 200 4s
+<-- POST /api/feed/v1/statements
+--> POST /api/feed/v1/statements 400 466ms
+<-- POST /api/feed/v1/statements
+--> POST /api/feed/v1/statements 200 2s
+<-- POST /api/feed/v1/statements
+--> POST /api/feed/v1/statements 200 2s
+<-- POST /api/feed/v1/statements
+--> POST /api/feed/v1/statements 200 814ms
+<-- GET /api/transactions?limit=100&offset=0
+--> GET /api/transactions?limit=100&offset=0 200 491ms
+<-- GET /api/me
+--> GET /api/me 200 229ms
+<-- GET /api/transactions?filter=all&sort=date&direction=desc&limit=25&offset=0
+<-- GET /api/statements
+<-- GET /api/transactions?filter=uncategorized&sort=date&direction=desc&limit=1&offset=0
+<-- GET /api/household
+<-- GET /api/categories
+<-- GET /api/accounts
+--> GET /api/statements 200 682ms
+--> GET /api/categories 200 683ms
+--> GET /api/accounts 200 709ms
+--> GET /api/transactions?filter=all&sort=date&direction=desc&limit=25&offset=0 200 790ms
+--> GET /api/transactions?filter=uncategorized&sort=date&direction=desc&limit=1&offset=0 200 891ms
+--> GET /api/household 200 953ms
+<-- GET /api/transactions?filter=all&sort=date&direction=desc&limit=25&offset=0&reconciliation=confirmed
+--> GET /api/transactions?filter=all&sort=date&direction=desc&limit=25&offset=0&reconciliation=confirmed 200 501ms
+<-- GET /api/transactions?filter=all&sort=date&direction=desc&limit=25&offset=0&reconciliation=not_on_statement
+--> GET /api/transactions?filter=all&sort=date&direction=desc&limit=25&offset=0&reconciliation=not_on_statement 200 518ms
+<-- GET /api/me
+--> GET /api/me 200 240ms
+<-- GET /api/statements
+<-- GET /api/statements/review
+--> GET /api/statements/review 200 488ms
+--> GET /api/statements 200 533ms
+<-- DELETE /api/statements/48837a17-a615-44b3-a505-d2f2717a751c
+--> DELETE /api/statements/48837a17-a615-44b3-a505-d2f2717a751c 200 518ms
+<-- GET /api/statements
+<-- GET /api/statements/review
+--> GET /api/statements 200 408ms
+--> GET /api/statements/review 200 434ms
+<-- GET /api/transactions?limit=100&offset=0
+--> GET /api/transactions?limit=100&offset=0 200 489ms
+<-- DELETE /api/feed/keys/1e8bd1e0-415f-4d04-9d20-817892801468
+--> DELETE /api/feed/keys/1e8bd1e0-415f-4d04-9d20-817892801468 200 355ms
+<-- GET /api/me
+--> GET /api/me 401 1ms
+<-- POST /api/auth/login
+--> POST /api/auth/login 200 385ms
+<-- GET /api/me
+--> GET /api/me 200 231ms
+<-- GET /api/me
+--> GET /api/me 200 237ms
+<-- GET /api/accounts
+<-- GET /api/banks
+<-- GET /api/feed/keys
+<-- GET /api/household
+<-- GET /api/categories
+<-- GET /api/health
+--> GET /api/health 200 140ms
+--> GET /api/banks 200 379ms
+--> GET /api/feed/keys 200 511ms
+--> GET /api/accounts 200 522ms
+--> GET /api/categories 200 533ms
+--> GET /api/household 200 744ms
+<-- GET /api/me
+--> GET /api/me 200 239ms
+<-- GET /api/transactions?filter=all&sort=date&direction=desc&limit=25&offset=0
+<-- GET /api/statements
+<-- GET /api/transactions?filter=uncategorized&sort=date&direction=desc&limit=1&offset=0
+<-- GET /api/household
+<-- GET /api/categories
+<-- GET /api/accounts
+--> GET /api/accounts 200 684ms
+--> GET /api/statements 200 744ms
+--> GET /api/categories 200 744ms
+--> GET /api/transactions?filter=all&sort=date&direction=desc&limit=25&offset=0 200 782ms
+--> GET /api/transactions?filter=uncategorized&sort=date&direction=desc&limit=1&offset=0 200 839ms
+--> GET /api/household 200 960ms
+2:09:27 PM [tsx] Previous process hasn't exited yet. Force killing...

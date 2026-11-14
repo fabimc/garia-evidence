@@ -1,0 +1,28 @@
+{
+  "status": 200,
+  "body": {
+    "banks": [
+      {
+        "id": "1d06cdc7-e413-4fc3-865a-357e4feae695",
+        "slug": "bac-cr",
+        "name": "BAC Credomatic",
+        "country": "CR",
+        "defaultCurrency": "CRC"
+      },
+      {
+        "id": "2b41c41c-7bfb-479d-ae96-25bdb5f1df71",
+        "slug": "davibank-cr",
+        "name": "DAVIbank",
+        "country": "CR",
+        "defaultCurrency": "CRC"
+      },
+      {
+        "id": "4e859422-f687-4e8f-8d54-0d6dc9a37802",
+        "slug": "davivienda-cr",
+        "name": "Davivienda",
+        "country": "CR",
+        "defaultCurrency": "CRC"
+      }
+    ]
+  }
+}

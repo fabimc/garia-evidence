@@ -1,0 +1,48 @@
+run token verify-pr78-200752; app http://localhost:5174 (isolated: API :8001, Vite :5174, Postgres :55433, proxy :4445)
+routes: / (sign-in, Plan), /settings, /transactions (Ledger), /statements;
+API: /api/me, /api/banks, /api/feed/keys, /api/feed/v1/transactions, /api/feed/v1/statements
+2026-11-14T20:08:32.383Z PASS wrong password shows the Invalid email or password alert
+2026-11-14T20:08:32.403Z PASS register mode shows Name, Confirm password and a Create account button
+2026-11-14T20:08:33.584Z PASS /api/me status 200
+2026-11-14T20:08:33.584Z PASS /api/me is the dedicated verify account
+2026-11-14T20:08:35.092Z PASS Plan disclosure shows Income and Bills
+2026-11-14T20:08:35.092Z PASS Plan footer has the Bank statements link
+2026-11-14T20:08:35.092Z PASS no Statement review nudge before any statement
+2026-11-14T20:08:35.336Z Accounts Bank options: ["None"]
+2026-11-14T20:08:35.336Z FAIL Bank picker lists Davivienda next to DAVIbank
+2026-11-14T20:08:35.898Z PASS GET /api/banks has davivienda-cr (Davivienda, CRC)
+2026-11-14T20:08:36.440Z PASS minted a feed key (201)
+2026-11-14T20:08:41.536Z PASS feed created 4 davivienda-cr CRC rows
+2026-11-14T20:08:42.007Z PASS unknown slug refused (400)
+2026-11-14T20:08:44.383Z PASS CRC statement accepted (200)
+2026-11-14T20:08:44.383Z PASS CRC counts {"lines":5,"matched":3,"created":2,"needsReview":0,"missing":1}
+2026-11-14T20:08:44.383Z PASS CRC statement has no line failures
+2026-11-14T20:08:46.292Z PASS USD statement accepted (200)
+2026-11-14T20:08:46.292Z PASS USD counts {"lines":1,"matched":0,"created":1,"needsReview":0,"missing":0}
+2026-11-14T20:08:47.110Z PASS resending the USD statement returns alreadyReceived: true
+2026-11-14T20:08:47.609Z PASS 7 Davivienda rows in the ledger (7)
+2026-11-14T20:08:47.609Z PASS the 3 matched feed rows (2 purchases, 1 payment) are confirmed
+2026-11-14T20:08:47.609Z PASS the unlisted feed row is not_on_statement
+2026-11-14T20:08:47.609Z PASS interest fee -2345.67 CRC created and confirmed
+2026-11-14T20:08:47.609Z PASS promotion purchase created and confirmed
+2026-11-14T20:08:47.609Z PASS USD purchase -20.00 created and confirmed
+2026-11-14T20:08:47.609Z PASS the payment matched its feed row instead of being duplicated
+2026-11-14T20:08:49.303Z PASS rows read Davivienda · ••1234
+2026-11-14T20:08:49.306Z FAIL interest fee row has the Confirmed badge
+2026-11-14T20:08:49.309Z PASS interest fee row shows -₡2,345.67
+2026-11-14T20:08:49.311Z FAIL unlisted feed row has the Not on statement badge
+2026-11-14T20:08:49.313Z PASS payment row shows ₡101,000.00
+2026-11-14T20:08:50.132Z PASS Statement = Confirmed shows 6 Davivienda rows (6)
+2026-11-14T20:08:50.990Z PASS Statement = Not on statement shows 1 Davivienda row (1)
+2026-11-14T20:08:52.234Z PASS Received CRC: 3 matched · 2 added · 1 not on statement
+2026-11-14T20:08:52.234Z PASS Received USD: 0 matched · 1 added
+2026-11-14T20:08:54.097Z PASS undoing the USD statement removed its created row
+2026-11-14T20:08:54.501Z PASS feed key revoked (200)
+persistent state: disposable local Docker DB only. 1 feed key (revoked), 4 davivienda-cr CRC feed rows,
+2 statements from the synthetic fixture (USD one undone at the end). No password change, shared DB,
+or human account touched. All data synthetic.
+recheck (script locator fixes, same instance):
+2026-11-14T20:09:08.922Z PASS Accounts Bank picker lists ["None","BAC Credomatic","DAVIbank","Davivienda"]
+2026-11-14T20:09:10.644Z PASS interest fee row has the Confirmed badge
+2026-11-14T20:09:10.646Z PASS unlisted feed row has the Not on statement badge
+2026-11-14T20:09:10.649Z PASS statement-created fee row has no Edit/Delete

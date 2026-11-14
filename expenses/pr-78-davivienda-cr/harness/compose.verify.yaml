@@ -1,0 +1,7 @@
+services:
+  db:
+    ports: !override
+      - "127.0.0.1:55433:5432"
+  neon-proxy:
+    ports: !override
+      - "127.0.0.1:4445:4444"

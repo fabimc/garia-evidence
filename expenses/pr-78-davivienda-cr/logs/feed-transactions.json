@@ -1,0 +1,10 @@
+{
+  "status": 200,
+  "body": {
+    "scanned": 4,
+    "created": 4,
+    "duplicatesSkipped": 0,
+    "validationFailures": 0,
+    "failures": []
+  }
+}

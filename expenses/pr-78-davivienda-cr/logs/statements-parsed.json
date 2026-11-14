@@ -1,0 +1,75 @@
+{
+  "ok": true,
+  "statements": [
+    {
+      "externalId": "verify-pr78-200752:stmt-2026-11-03-1234-CRC",
+      "bankSlug": "davivienda-cr",
+      "currency": "CRC",
+      "cardLast4s": [
+        "1234"
+      ],
+      "periodStart": "2026-10-04",
+      "periodEnd": "2026-11-03",
+      "lines": [
+        {
+          "transactionDate": "2026-10-21",
+          "amount": "101000.00",
+          "type": "payment",
+          "rawMerchantText": "ABONO A SU CUENTA .... GRACI; 101,000.00",
+          "cardLast4": "1234"
+        },
+        {
+          "transactionDate": "2026-10-04",
+          "amount": "-12500.50",
+          "type": "purchase",
+          "rawMerchantText": "Farmacia Ejemplo, Centro",
+          "description": "San José, CRC",
+          "cardLast4": "1234"
+        },
+        {
+          "transactionDate": "2026-10-16",
+          "amount": "-37499.50",
+          "type": "purchase",
+          "rawMerchantText": "Tienda Online (123",
+          "description": "San Jose, CRC",
+          "cardLast4": "1234"
+        },
+        {
+          "transactionDate": "2026-11-03",
+          "amount": "-1234567.89",
+          "type": "purchase",
+          "rawMerchantText": "Tienda Online (123",
+          "description": "San Jose, CRC",
+          "cardLast4": "1234"
+        },
+        {
+          "transactionDate": "2026-11-03",
+          "amount": "-2345.67",
+          "type": "fee",
+          "rawMerchantText": "Intereses corrientes",
+          "cardLast4": "1234"
+        }
+      ]
+    },
+    {
+      "externalId": "verify-pr78-200752:stmt-2026-11-03-1234-USD",
+      "bankSlug": "davivienda-cr",
+      "currency": "USD",
+      "cardLast4s": [
+        "1234"
+      ],
+      "periodStart": "2026-10-04",
+      "periodEnd": "2026-11-03",
+      "lines": [
+        {
+          "transactionDate": "2026-10-21",
+          "amount": "-20.00",
+          "type": "purchase",
+          "rawMerchantText": "SUSCRIPCION DIGITAL",
+          "description": "San Francisco, USD",
+          "cardLast4": "1234"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+- main:
+  - heading "Transactions" [level=2]
+  - paragraph: 1 transaction
+  - link "Download CSV":
+    - /url: /api/transactions/export?filter=all&reconciliation=not_on_statement
+  - button "New transaction"
+  - paragraph: 7 to file
+  - button "Start queue"
+  - button "Previous month": ‹
+  - text: Month
+  - textbox "Month"
+  - button "Next month": ›
+  - text: Search transactions
+  - searchbox "Search transactions"
+  - text: Filter category
+  - combobox "Filter category":
+    - option "All categories" [selected]
+    - option "Income"
+    - option "Groceries"
+    - option "Dining & Takeout"
+    - option "Transport"
+    - option "Fuel"
+    - option "Housing"
+    - option "Utilities"
+    - option "Health"
+    - option "Insurance"
+    - option "Shopping"
+    - option "Entertainment"
+    - option "Subscriptions"
+    - option "Travel"
+    - option "Education"
+    - option "Personal Care"
+    - option "Gifts & Donations"
+    - option "Fees & Interest"
+    - option "Taxes"
+    - option "Transfers"
+    - option "Investments"
+    - option "Uncategorized"
+  - text: Statement
+  - combobox "Statement":
+    - option "Any"
+    - option "Confirmed"
+    - option "Not on statement" [selected]
+    - option "Not yet covered"
+  - group "Filter transactions":
+    - button "Needs filing, 7 transactions": Needs filing (7)
+    - button "All" [pressed]
+  - table:
+    - rowgroup:
+      - row "Sort by date, ascending Sort by merchant, ascending Sort by category, ascending Sort by amount, ascending":
+        - columnheader "Sort by date, ascending":
+          - button "Sort by date, ascending": Date
+        - columnheader "Sort by merchant, ascending":
+          - button "Sort by merchant, ascending": Merchant
+        - columnheader "Sort by category, ascending":
+          - button "Sort by category, ascending": Category
+        - columnheader "Sort by amount, ascending":
+          - button "Sort by amount, ascending": Amount
+        - columnheader
+    - rowgroup:
+      - row "Oct 20, 2026 Cafe Sintetico Verify PR78 Davivienda · ••1234 Not on statement Category for Cafe Sintetico Verify PR78 Uncategorized Split -₡8,000.00 Leave out of leftover":
+        - cell "Oct 20, 2026"
+        - cell "Cafe Sintetico Verify PR78 Davivienda · ••1234 Not on statement":
+          - paragraph: Cafe Sintetico Verify PR78
+          - paragraph: Davivienda · ••1234 Not on statement
+        - cell "Category for Cafe Sintetico Verify PR78 Uncategorized Split":
+          - text: Category for Cafe Sintetico Verify PR78
+          - combobox "Category for Cafe Sintetico Verify PR78":
+            - option "Uncategorized" [selected]
+            - option "Income"
+            - option "Groceries"
+            - option "Dining & Takeout"
+            - option "Transport"
+            - option "Fuel"
+            - option "Housing"
+            - option "Utilities"
+            - option "Health"
+            - option "Insurance"
+            - option "Shopping"
+            - option "Entertainment"
+            - option "Subscriptions"
+            - option "Travel"
+            - option "Education"
+            - option "Personal Care"
+            - option "Gifts & Donations"
+            - option "Fees & Interest"
+            - option "Taxes"
+            - option "Transfers"
+            - option "Investments"
+          - button "Split"
+        - cell "-₡8,000.00"
+        - cell "Leave out of leftover":
+          - button "Leave out of leftover"

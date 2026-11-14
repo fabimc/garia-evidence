@@ -1,0 +1,4 @@
+21
+bac-cr|BAC Credomatic|CR|CRC
+davibank-cr|DAVIbank|CR|CRC
+davivienda-cr|Davivienda|CR|CRC

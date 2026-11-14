@@ -1,0 +1,9 @@
+{
+  "status": 400,
+  "body": {
+    "error": {
+      "code": "bad_request",
+      "message": "No seeded bank with slug davivienda-co"
+    }
+  }
+}
