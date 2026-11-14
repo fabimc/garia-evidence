@@ -1,0 +1,89 @@
+{
+  "mainJs": "/tmp/garia-main-pr183.js",
+  "siblingWalk": true,
+  "cpuThrottle": 6,
+  "totalRows": 524,
+  "timing": {
+    "presses": 200,
+    "medianMs": 16.6,
+    "p95Ms": 24.8,
+    "maxMs": 32.9,
+    "burstMs": 65969
+  },
+  "checks": [
+    {
+      "name": "all: 30x ArrowDown from row 0 crosses section headers to row 30",
+      "ok": true,
+      "actual": [
+        30
+      ],
+      "expected": [
+        30
+      ]
+    },
+    {
+      "name": "all: ArrowUp past the top stays on row 0",
+      "ok": true,
+      "actual": [
+        0
+      ],
+      "expected": [
+        0
+      ]
+    },
+    {
+      "name": "all: Shift+ArrowDown selects the anchor and the next row",
+      "ok": true,
+      "actual": [
+        0,
+        1
+      ],
+      "expected": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "all: Ctrl+A selects every visible row",
+      "ok": true,
+      "actual": 524,
+      "expected": 524
+    },
+    {
+      "name": "search file-49: 5x ArrowDown skips hidden rows to match 5",
+      "ok": true,
+      "actual": [
+        5
+      ],
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "search file-49: ArrowDown past the end stays on the last match",
+      "ok": true,
+      "actual": [
+        10
+      ],
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "search file-49: focus follows the selection",
+      "ok": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "200x ArrowDown lands on row 200",
+      "ok": true,
+      "actual": [
+        200
+      ],
+      "expected": [
+        200
+      ]
+    }
+  ]
+}

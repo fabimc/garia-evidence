@@ -1,0 +1,55 @@
+{
+  "servingFix": true,
+  "cpuThrottle": 6,
+  "totalRows": 524,
+  "steps": [
+    {
+      "step": "1-search-file-49",
+      "label": "search file-49",
+      "expected": 11,
+      "settled": true,
+      "settledAfterS": 8.4,
+      "final": {
+        "shown": 11,
+        "nonMatching": 0,
+        "header": "11 items"
+      }
+    },
+    {
+      "step": "2-clear-search",
+      "label": "clear search",
+      "expected": 524,
+      "settled": true,
+      "settledAfterS": 7.6,
+      "final": {
+        "shown": 524,
+        "nonMatching": 0,
+        "header": "524 items"
+      }
+    },
+    {
+      "step": "3-sidebar-active",
+      "label": "sidebar Active",
+      "expected": 6,
+      "settled": true,
+      "settledAfterS": 10.5,
+      "final": {
+        "shown": 6,
+        "nonMatching": 0,
+        "header": "6 items"
+      }
+    },
+    {
+      "step": "4-sidebar-all",
+      "label": "sidebar All",
+      "expected": 524,
+      "settled": true,
+      "settledAfterS": 7.8,
+      "final": {
+        "shown": 524,
+        "nonMatching": 0,
+        "header": "524 items"
+      }
+    }
+  ]
+}

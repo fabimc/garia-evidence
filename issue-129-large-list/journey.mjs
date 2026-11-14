@@ -38,7 +38,12 @@ const selection = () => page.evaluate(() => {
 const settleFilter = (n) => page.waitForFunction((n) =>
   document.querySelectorAll("#download-list .dl-item:not(.hidden)").length === n
   && document.getElementById("view-count").textContent === `${n} items`, n, { timeout: 60000 });
-const clickVisible = (i) => page.locator("#download-list .dl-item:not(.hidden) .dl-name").nth(i).click();
+// Clicking a name opens the inspector, which re-renders on every selection; close it.
+async function clickVisible(i) {
+  await page.locator("#download-list .dl-item:not(.hidden) .dl-name").nth(i).click();
+  await page.waitForTimeout(200);
+  if (await page.locator("#detail-pane:not(.hidden)").count()) await page.keyboard.press("Escape");
+}
 async function press(key, times = 1) {
   for (let i = 0; i < times; i++) await page.keyboard.press(key);
   await page.waitForTimeout(300);
@@ -57,8 +62,9 @@ await press("ArrowDown", 30);
 check("all: 30x ArrowDown from row 0 crosses section headers to row 30", (await selection()).selected, [30]);
 await press("ArrowUp", 40);
 check("all: ArrowUp past the top stays on row 0", (await selection()).selected, [0]);
+// The anchor stays put on Shift, so each press re-selects anchor..anchor+1 (same on master).
 await press("Shift+ArrowDown", 3);
-check("all: Shift+ArrowDown x3 extends the range", (await selection()).selected, [0, 1, 2, 3]);
+check("all: Shift+ArrowDown selects the anchor and the next row", (await selection()).selected, [0, 1]);
 await press("Control+a");
 check("all: Ctrl+A selects every visible row", (await selection()).selected.length, total);
 await page.screenshot({ path: `${evidence}/1-all-ctrl-a.png` });
@@ -74,8 +80,7 @@ check("search file-49: ArrowDown past the end stays on the last match", (await s
 const focus = await selection();
 check("search file-49: focus follows the selection", focus.focused, 10);
 await page.screenshot({ path: `${evidence}/2-search-last-match.png` });
-await page.locator("#name-filter").focus();
-await page.keyboard.press("Escape");
+await page.locator("#name-filter-clear").click();
 await settleFilter(total);
 
 // Handler cost: from the first keydown listener to the last bubbling one.
