@@ -1,0 +1,193 @@
+{
+  "checkout": "master @ ab7a938",
+  "steps": [
+    {
+      "step": "1-clear-completed-many",
+      "label": "Completed view, Clear completed with several finished downloads",
+      "view": "Completed",
+      "dialog": {
+        "title": "Clear completed",
+        "text": "Remove 4 finished downloads leave the list. The files stay on disk. from the list?",
+        "button": "Remove",
+        "trashOption": false
+      },
+      "rows": [
+        {
+          "name": "annual-report.pdf",
+          "status": "complete"
+        },
+        {
+          "name": "quote\"and<angle>brackets.zip",
+          "status": "complete"
+        },
+        {
+          "name": "Keynote.f315.webm",
+          "status": "complete"
+        },
+        {
+          "name": "Keynote.f251.webm",
+          "status": "complete"
+        }
+      ],
+      "rpcSinceLastStep": []
+    },
+    {
+      "step": "2-clear-completed-one",
+      "label": "Completed view, Clear completed with one finished download",
+      "view": "Completed",
+      "dialog": {
+        "title": "Clear completed",
+        "text": "Remove annual-report.pdf leaves the list. The file stays on disk. from the list?",
+        "button": "Remove",
+        "trashOption": false
+      },
+      "rows": [
+        {
+          "name": "annual-report.pdf",
+          "status": "complete"
+        }
+      ],
+      "rpcSinceLastStep": []
+    },
+    {
+      "step": "3-clear-completed-removed",
+      "label": "Remove",
+      "view": "Completed",
+      "dialog": null,
+      "rows": [],
+      "rpcSinceLastStep": [
+        "aria2.removeDownloadResult([\"cccc2222\"])"
+      ]
+    },
+    {
+      "step": "4-clear-failed-many",
+      "label": "Failed view, Clear failed with several failed downloads",
+      "view": "Failed",
+      "dialog": {
+        "title": "Clear failed",
+        "text": "Remove 6 failed downloads leave the list. The files stay on disk. from the list?",
+        "button": "Remove",
+        "trashOption": false
+      },
+      "rows": [
+        {
+          "name": "broken-mirror.tar.xz",
+          "status": "error"
+        },
+        {
+          "name": "half-written.iso",
+          "status": "error"
+        },
+        {
+          "name": "alpine-3.21-x86_64.iso",
+          "status": "error"
+        },
+        {
+          "name": "some-collection.torrent",
+          "status": "error"
+        },
+        {
+          "name": "members-only-course.zip",
+          "status": "error"
+        },
+        {
+          "name": "hotlinked-wallpaper.jpg",
+          "status": "error"
+        }
+      ],
+      "rpcSinceLastStep": []
+    },
+    {
+      "step": "5-clear-failed-one",
+      "label": "Failed view, Clear failed with one failed download",
+      "view": "Failed",
+      "dialog": {
+        "title": "Clear failed",
+        "text": "Remove broken-mirror.tar.xz leaves the list. The file stays on disk. from the list?",
+        "button": "Remove",
+        "trashOption": false
+      },
+      "rows": [
+        {
+          "name": "broken-mirror.tar.xz",
+          "status": "error"
+        }
+      ],
+      "rpcSinceLastStep": []
+    },
+    {
+      "step": "6-ordinary-delete",
+      "label": "All Downloads, row Delete action on an active download",
+      "view": "All Downloads",
+      "dialog": {
+        "title": "Delete download",
+        "text": "Remove Ubuntu 24.04 Desktop.iso from the list?\n\nMove the downloaded file to the Trash",
+        "button": "Delete",
+        "trashOption": true
+      },
+      "rows": [
+        {
+          "name": "Ubuntu 24.04 Desktop.iso",
+          "status": "active"
+        },
+        {
+          "name": "archive-linux-isos",
+          "status": "active"
+        },
+        {
+          "name": "stream-of-unknown-size.bin",
+          "status": "active"
+        },
+        {
+          "name": "Big Buck Bunny 4K.mp4",
+          "status": "active"
+        },
+        {
+          "name": "lands-in-15-seconds.mp4",
+          "status": "active"
+        },
+        {
+          "name": "A Very Long Talk About Nothing.f315.webm",
+          "status": "active"
+        },
+        {
+          "name": "A Very Long Talk About Nothing.f251.webm",
+          "status": "active"
+        },
+        {
+          "name": "nixos-25.05-x86_64.iso",
+          "status": "seeding"
+        },
+        {
+          "name": "Xcode_16.2.xip",
+          "status": "waiting"
+        },
+        {
+          "name": "an-extremely-long-file-name-that-should-be-truncated-with-an-ellipsis-rather-than-wrapping-across-lines.tar.gz",
+          "status": "waiting"
+        },
+        {
+          "name": "node-v24.4.0-darwin-arm64.tar.gz",
+          "status": "waiting"
+        },
+        {
+          "name": "Sintel (2010) 4K.mkv",
+          "status": "waiting"
+        },
+        {
+          "name": "postgresql-18.1-macos.dmg",
+          "status": "waiting"
+        },
+        {
+          "name": "Blender 4.3 macOS arm64.dmg",
+          "status": "paused"
+        },
+        {
+          "name": "broken-mirror.tar.xz",
+          "status": "error"
+        }
+      ],
+      "rpcSinceLastStep": []
+    }
+  ]
+}
