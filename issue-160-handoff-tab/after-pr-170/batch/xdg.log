@@ -1,0 +1,3 @@
+1794954694.633182686 xdg-settings check default-url-scheme-handler garia chromium-browser.desktop
+1794954694.640051716 xdg-settings get default-url-scheme-handler garia chromium-browser.desktop
+1794954700.056153390 xdg-open garia://add?from=extension&batch=1&referrer=http%3A%2F%2F127.0.0.1%3A8931%2Fbatch.html

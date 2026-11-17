@@ -1,0 +1,2 @@
+#!/bin/sh
+echo "$(date +%s.%N) xdg-open $*" >> "$HARNESS_LOG"

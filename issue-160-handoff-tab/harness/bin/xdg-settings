@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "$(date +%s.%N) xdg-settings $*" >> "$HARNESS_LOG"
+case "$*" in *garia*) echo garia.desktop;; esac

@@ -1,0 +1,62 @@
+[3621:3637:1117/223033.023347:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[3621:3637:1117/223033.023756:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3621:3637:1117/223033.108665:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[3621:3637:1117/223033.108716:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[3621:3637:1117/223033.108750:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3621:3637:1117/223033.112420:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3621:3637:1117/223033.139293:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3621:3621:1117/223033.160155:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+
+DevTools listening on ws://127.0.0.1:9333/devtools/browser/6dc5f608-49c4-4ddd-ad9f-990f3c1d13b0
+[3621:3637:1117/223033.160278:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3621:3621:1117/223033.160336:WARNING:device/bluetooth/dbus/bluez_dbus_manager.cc:209] Floss manager service not available, cannot set Floss enable/disable.
+[3621:3621:1117/223033.160352:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[3621:3621:1117/223033.160438:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[3621:3637:1117/223033.160761:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3621:3621:1117/223033.163306:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[3621:3637:1117/223033.167320:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3651:3651:1117/223033.175260:WARNING:media/gpu/vaapi/vaapi_wrapper.cc:1660] drmGetDevices2() has not found any devices
+[3651:3651:1117/223033.179207:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.
+[3651:3651:1117/223033.182680:WARNING:ui/gfx/linux/gbm_support_x11.cc:48] dri3 extension not supported.
+[3621:3637:1117/223033.191962:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3621:3637:1117/223033.191978:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3710:3710:1117/223033.210486:WARNING:content/child/runtime_features.cc:520] AttributionReporting cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement in addition.
+[3621:3621:1117/223033.248776:WARNING:ui/aura/window.cc:1464] StackChildLayerRelativeTo called with unmanaged layer(s). child=WebContentsViewAura child_managed=0 target=WebContentsViewAura target_managed=0
+[3621:3621:1117/223033.248852:WARNING:ui/aura/window.cc:1464] StackChildLayerRelativeTo called with unmanaged layer(s). child=WebContentsViewAura child_managed=0 target=WebContentsViewAura target_managed=0
+[3723:3723:1117/223033.253663:WARNING:content/child/runtime_features.cc:520] AttributionReporting cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement in addition.
+[3724:3724:1117/223033.262087:WARNING:content/child/runtime_features.cc:520] AttributionReporting cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement in addition.
+[3621:3621:1117/223033.264545:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[3621:3621:1117/223033.265040:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[3621:3621:1117/223033.266192:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[3621:3637:1117/223033.267170:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[3621:3637:1117/223033.267229:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[3621:3637:1117/223033.267238:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3621:3621:1117/223033.296131:WARNING:dbus/property.cc:94] Failed to connect to PropertiesChangedsignal.
+[3621:3621:1117/223033.296149:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.Properties.GetAll: object_path= /org/freedesktop/UPower/devices/DisplayDevice: unknown error type: 
+[3621:3621:1117/223033.296153:WARNING:dbus/property.cc:174] GetAll request failed for: org.freedesktop.UPower.Device
+[3621:3621:1117/223033.296166:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[3621:3637:1117/223033.296737:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3621:3621:1117/223033.316401:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[3621:3637:1117/223033.316498:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3621:3637:1117/223033.322296:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[3621:3621:1117/223033.326262:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[3621:3621:1117/223033.326276:WARNING:ui/base/idle/idle_linux.cc:111] None of the known D-Bus ScreenSaver services could be used.
+[3724:3736:1117/223033.341066:ERROR:cc/raster/one_copy_raster_buffer_provider.cc:286] Creation of StagingBuffer's SharedImage failed.
+[3621:3621:1117/223033.349135:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.NetworkManager.GetDevices: object_path= /org/freedesktop/NetworkManager: unknown error type: 
+[3621:3621:1117/223033.349151:WARNING:services/device/geolocation/wifi_data_provider_linux.cc:171] Failed to get the device list
+[3621:3621:1117/223033.363775:INFO:CONSOLE:1] "Uncaught SyntaxError: Identifier 'FILE_EXTS' has already been declared", source: chrome-extension://iahpipjeekpjbaggldmpbmmpejcfcfil/file-types.js (1)
+[3621:3621:1117/223033.363966:INFO:CONSOLE:1] "Uncaught SyntaxError: Identifier 'GARIA_PREF_DEFAULTS' has already been declared", source: chrome-extension://iahpipjeekpjbaggldmpbmmpejcfcfil/prefs.js (1)
+[3754:3754:1117/223033.402982:WARNING:content/child/runtime_features.cc:520] AttributionReporting cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement in addition.
+[3756:3756:1117/223033.406367:WARNING:content/child/runtime_features.cc:520] AttributionReporting cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement in addition.
+[3753:3753:1117/223033.422979:WARNING:content/child/runtime_features.cc:520] AttributionReporting cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement in addition.
+[3790:3790:1117/223036.232765:WARNING:content/child/runtime_features.cc:520] AttributionReporting cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement in addition.
+[3621:3637:1117/223038.568895:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[3621:3621:1117/223038.569129:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[3621:3621:1117/223038.580019:WARNING:ui/aura/window.cc:1464] StackChildLayerRelativeTo called with unmanaged layer(s). child=WebContentsViewAura child_managed=0 target=WebContentsViewAura target_managed=0
+[3621:3621:1117/223038.580070:WARNING:ui/aura/window.cc:1464] StackChildLayerRelativeTo called with unmanaged layer(s). child=WebContentsViewAura child_managed=0 target=WebContentsViewAura target_managed=0
+[3621:3621:1117/223040.094572:WARNING:ui/aura/window.cc:1464] StackChildLayerRelativeTo called with unmanaged layer(s). child=WebContentsViewAura child_managed=0 target=WebContentsViewAura target_managed=0
+[3621:3621:1117/223040.094646:WARNING:ui/aura/window.cc:1464] StackChildLayerRelativeTo called with unmanaged layer(s). child=WebContentsViewAura child_managed=0 target=WebContentsViewAura target_managed=0
+[3828:3828:1117/223040.111212:WARNING:content/child/runtime_features.cc:520] AttributionReporting cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement in addition.
+[3651:3651:1117/223042.772435:ERROR:ui/gfx/x/connection.cc:66] X connection error received.
+[3651:3706:1117/223042.772471:ERROR:ui/gfx/x/connection.cc:66] X connection error received.
+[3847:3847:1117/223042.787465:WARNING:content/child/runtime_features.cc:520] AttributionReporting cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement in addition.

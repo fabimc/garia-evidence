@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "$(date +%s.%N) xdg-mime $*" >> "$HARNESS_LOG"
+case "$*" in *x-scheme-handler/garia*) echo garia.desktop;; esac

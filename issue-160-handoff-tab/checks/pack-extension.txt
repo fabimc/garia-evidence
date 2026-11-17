@@ -1,0 +1,3 @@
+Chrome Web Store zip:  <garia checkout>/dist/extensions/garia-chrome.zip
+Firefox Add-ons zip:   <garia checkout>/dist/extensions/garia-firefox.zip
+Sideload either browser from <garia checkout>/extensions/garia — Settings → Browser opens that folder.

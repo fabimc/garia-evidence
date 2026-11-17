@@ -1,0 +1,8 @@
+1794954668.363351817 xdg-settings check default-url-scheme-handler garia chromium-browser.desktop
+1794954668.369974852 xdg-settings get default-url-scheme-handler garia chromium-browser.desktop
+1794954673.531309860 xdg-settings check default-url-scheme-handler garia chromium-browser.desktop
+1794954673.538357028 xdg-settings get default-url-scheme-handler garia chromium-browser.desktop
+1794954677.551245365 xdg-open garia://add?url=http%3A%2F%2F127.0.0.1%3A8931%2Ffile.zip&from=extension&name=file.zip&confirm=1
+1794954680.393718202 xdg-settings check default-url-scheme-handler garia chromium-browser.desktop
+1794954680.400695091 xdg-settings get default-url-scheme-handler garia chromium-browser.desktop
+1794954680.407222704 xdg-open garia://add?url=http%3A%2F%2F127.0.0.1%3A8931%2Ffile.zip%3Fsecond&from=extension&name=file.zip&confirm=1
