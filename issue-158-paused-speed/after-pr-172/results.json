@@ -1,0 +1,34 @@
+[
+  {
+    "label": "fix",
+    "mode": "list",
+    "gid": "aaaa1111",
+    "clicked": true,
+    "before": {
+      "status": "active",
+      "speedCell": "4.2 MB/s",
+      "rowText": "Ubuntu 24.04 Desktop.iso 351.0 MB 14% 4.2 MB/s 1m"
+    },
+    "after": {
+      "status": "paused",
+      "speedCell": "—",
+      "rowText": "Ubuntu 24.04 Desktop.iso 351.0 MB 19% · Paused — —"
+    }
+  },
+  {
+    "label": "fix",
+    "mode": "inspector",
+    "gid": "aaaa1111",
+    "clicked": true,
+    "before": {
+      "status": "active",
+      "rowText": "Ubuntu 24.04 Desktop.iso 351.0 MB 14% · 4.2 MB/s",
+      "inspectorSpeed": "4.2 MB/s"
+    },
+    "after": {
+      "status": "paused",
+      "rowText": "Ubuntu 24.04 Desktop.iso 351.0 MB 19% · Paused",
+      "inspectorSpeed": "—"
+    }
+  }
+]

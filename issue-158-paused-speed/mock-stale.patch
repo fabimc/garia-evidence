@@ -1,0 +1,11 @@
+--- mock-rpc.js	2026-11-17 22:17:36.117194429 +0000
++++ mock-stale.mjs	2026-11-17 22:32:57.937567433 +0000
+@@ -476,7 +476,7 @@
+   const stillActive = active.filter((d) => !isPaused(d));
+   const held = [...active.filter(isPaused), ...waiting].map((d) =>
+     paused.has(d.gid)
+-      ? { ...d, status: "paused", downloadSpeed: "0", connections: "0" }
++      ? { ...d, status: "paused" }
+       : d);
+ 
+   // Any other download the UI removes goes where aria2 puts it: out of the
