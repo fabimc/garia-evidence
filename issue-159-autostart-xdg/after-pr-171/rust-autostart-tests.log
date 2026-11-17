@@ -1,0 +1,6 @@
+test autostart_linux::tests::desktop_switched_off_entries_count_as_off ... ok
+test autostart_linux::tests::enable_and_disable_only_touch_the_selected_entry ... ok
+test autostart_linux::tests::executable_is_safely_quoted_for_desktop_exec ... ok
+test autostart_linux::tests::startup_only_adds_the_background_flag ... ok
+test autostart_linux::tests::xdg_config_home_or_default_home ... ok
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 128 filtered out; finished in 0.01s

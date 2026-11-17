@@ -1,0 +1,8 @@
+=== PR #171 + review fixes (after): <repo>/src-tauri/target/debug/garia
+--- Scenario 1: legacy entry, no flag, XDG_CONFIG_HOME unset
+Exec after launch: Exec=/usr/bin/garia --garia-background
+--- Scenario 2 (#159): user entry in ~/.config, test run with XDG_CONFIG_HOME=$TMP/xdg
+Exec after launch: Exec="/usr/bin/garia" --garia-background
+user entry unchanged: YES
+entries under XDG_CONFIG_HOME/autostart: 0
+app log tail:
