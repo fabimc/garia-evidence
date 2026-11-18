@@ -1,0 +1,26 @@
+{
+ "res": [
+  {
+   "label": "loaded, notifications off",
+   "checked": false,
+   "error": null,
+   "probes": 0,
+   "saves": 0
+  },
+  {
+   "label": "enable with no daemon",
+   "checked": false,
+   "error": "Could not enable desktop notifications: The desktop notification service is unavailable. Check your notification daemon and session bus: Failed to connect to address `unix:path=/run/user/1000/bus`: No such file or directory (os error 2)",
+   "probes": 1,
+   "saves": 0
+  },
+  {
+   "label": "enable with daemon running",
+   "checked": true,
+   "error": null,
+   "probes": 2,
+   "saves": 1
+  }
+ ],
+ "log": []
+}

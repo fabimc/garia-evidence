@@ -1,0 +1,26 @@
+{
+ "res": [
+  {
+   "label": "loaded, notifications off",
+   "checked": false,
+   "error": null,
+   "probes": 0,
+   "saves": 0
+  },
+  {
+   "label": "enable with no daemon",
+   "checked": false,
+   "error": "Could not enable desktop notifications: platform is not defined",
+   "probes": 0,
+   "saves": 0
+  },
+  {
+   "label": "enable with daemon running",
+   "checked": false,
+   "error": "Could not enable desktop notifications: platform is not defined",
+   "probes": 0,
+   "saves": 0
+  }
+ ],
+ "log": []
+}

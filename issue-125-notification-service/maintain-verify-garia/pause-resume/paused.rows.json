@@ -1,0 +1,14 @@
+[
+  {
+    "gid": "aaaa1111",
+    "name": "Ubuntu 24.04 Desktop.iso",
+    "status": "paused",
+    "selected": "true"
+  },
+  {
+    "gid": "cccc1111",
+    "name": "Blender 4.3 macOS arm64.dmg",
+    "status": "paused",
+    "selected": "false"
+  }
+]

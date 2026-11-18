@@ -1,0 +1,12 @@
+--- 1. no session bus
+ERR The desktop notification service is unavailable. Check your notification daemon and session bus: Failed to connect to address `unix:path=/run/user/0/bus`: No such file or directory (os error 2)
+--- 2. session bus, no daemon
+dbus-daemon[11500]: [session uid=0 pid=11500] org.freedesktop.DBus.Error.AccessDenied: Failed to set fd limit to 65536: Operation not permitted
+dbus-daemon[11500]: [session uid=0 pid=11500] Activating service name='org.freedesktop.Notifications' requested by ':1.0' (uid=0 pid=11503 comm="<repo>/src-tauri/target/debug/probe")
+WARNING: Cannot open X11 display.
+ERROR: [  get_x11_output:0065] Couldn't initialize X11 output. Aborting...
+dbus-daemon[11500]: [session uid=0 pid=11500] Activated service 'org.freedesktop.Notifications' failed: Process org.freedesktop.Notifications received signal 5
+ERR The desktop notification service is unavailable. Check your notification daemon and session bus: org.freedesktop.DBus.Error.Spawn.ChildSignaled: Process org.freedesktop.Notifications received signal 5
+--- 3. session bus + dunst
+dbus-daemon[11516]: [session uid=0 pid=11516] org.freedesktop.DBus.Error.AccessDenied: Failed to set fd limit to 65536: Operation not permitted
+OK server=dunst vendor=knopwob version=1.9.2 (2023-04-20)

@@ -1,0 +1,178 @@
+# Subtest: clear confirmations name downloads and keep files on disk
+ok 1 - clear confirmations name downloads and keep files on disk
+# Subtest: purge accepts a missing result only after successful removal and retries
+ok 2 - purge accepts a missing result only after successful removal and retries
+# Subtest: purge reports only genuine remaining errors in mixed batches
+ok 3 - purge reports only genuine remaining errors in mixed batches
+# Subtest: Linux disk-image extensions are labelled as such and archive hints stay readable
+ok 4 - Linux disk-image extensions are labelled as such and archive hints stay readable
+# Subtest: a torrent is recognised by its metainfo or its info hash
+ok 5 - a torrent is recognised by its metainfo or its info hash
+# Subtest: row download speed is shown only while active
+ok 6 - row download speed is shown only while active
+# Subtest: high files are requested before normal and low
+ok 7 - high files are requested before normal and low
+# Subtest: an unfinished high file keeps the later tiers waiting
+ok 8 - an unfinished high file keeps the later tiers waiting
+# Subtest: a file with no size yet is not treated as finished
+ok 9 - a file with no size yet is not treated as finished
+# Subtest: selected indices ignore files aria2 has skipped
+ok 10 - selected indices ignore files aria2 has skipped
+# Subtest: health is judged from the peers aria2 has actually reached
+ok 11 - health is judged from the peers aria2 has actually reached
+# Subtest: leechers come from the peer list, or from connections minus seeds
+ok 12 - leechers come from the peer list, or from connections minus seeds
+# Subtest: stalled is a torrent with somewhere left to go and nobody on it
+ok 13 - stalled is a torrent with somewhere left to go and nobody on it
+# Subtest: seed until names the rule that will stop a torrent
+ok 14 - seed until names the rule that will stop a torrent
+# Subtest: move to top and move to end keep the relative order of the selection
+ok 15 - move to top and move to end keep the relative order of the selection
+# Subtest: tracker rows flatten announce tiers and status follows connected peers
+ok 16 - tracker rows flatten announce tiers and status follows connected peers
+# Subtest: a custom cap is kilobytes per second, and a blank field clears it
+ok 17 - a custom cap is kilobytes per second, and a blank field clears it
+# Subtest: schedule hold notes name the reason a row is waiting
+ok 18 - schedule hold notes name the reason a row is waiting
+# Subtest: failure kinds group aria2 and merge errors for the UI
+ok 19 - failure kinds group aria2 and merge errors for the UI
+# Subtest: checksum parsing matches aria2's accepted forms
+ok 20 - checksum parsing matches aria2's accepted forms
+# Subtest: playlist rules pick the tallest quality inside the cap
+ok 21 - playlist rules pick the tallest quality inside the cap
+# Subtest: priority labels match the detail panel wording
+ok 22 - priority labels match the detail panel wording
+# Subtest: empty queue copy follows filter and connection state
+ok 23 - empty queue copy follows filter and connection state
+# Subtest: initial poll failures wait only during the engine startup grace period
+ok 24 - initial poll failures wait only during the engine startup grace period
+# Subtest: recoverable failures name a next step
+ok 25 - recoverable failures name a next step
+# Subtest: ffmpeg merge line reflects bundled vs missing
+ok 26 - ffmpeg merge line reflects bundled vs missing
+# Subtest: capture hints name the source
+ok 27 - capture hints name the source
+# Subtest: media quality labels combine resolution and format
+ok 28 - media quality labels combine resolution and format
+# Subtest: torrent state messages cover stall and queue
+ok 29 - torrent state messages cover stall and queue
+# Subtest: detail badges distinguish torrent, video, and http
+ok 30 - detail badges distinguish torrent, video, and http
+# Subtest: file priority labels match the tier names in the UI
+ok 31 - file priority labels match the tier names in the UI
+# Subtest: bulk intake selects files and leaves pages off
+ok 32 - bulk intake selects files and leaves pages off
+# Subtest: intake content kinds and filters name video, archive, and disk links
+ok 33 - intake content kinds and filters name video, archive, and disk links
+# Subtest: a link already in the list stays unticked, including All and Files
+ok 34 - a link already in the list stays unticked, including All and Files
+# Subtest: packages group related downloads and offer scoped actions
+ok 35 - packages group related downloads and offer scoped actions
+# Subtest: wait reasons distinguish queue, schedule, and failure
+ok 36 - wait reasons distinguish queue, schedule, and failure
+# Subtest: site rules match host and merge options onto an add
+ok 37 - site rules match host and merge options onto an add
+# Subtest: packages can move, export, and become templates
+ok 38 - packages can move, export, and become templates
+# Subtest: grab jobs fire once per day or week after their minute
+ok 39 - grab jobs fire once per day or week after their minute
+# Subtest: the extension collector matches the shared page-capture helper
+ok 40 - the extension collector matches the shared page-capture helper
+# Subtest: extension handoffs stay open for download, message, and batch captures
+ok 41 - extension handoffs stay open for download, message, and batch captures
+# Subtest: extension handoff can retry a dismissed prompt, including long batches
+ok 42 - extension handoff can retry a dismissed prompt, including long batches
+# Subtest: extension handoff without a payload stays put and hides retry
+ok 43 - extension handoff without a payload stays put and hides retry
+# Subtest: page capture lists embedded media before links and drops the page itself
+ok 44 - page capture lists embedded media before links and drops the page itself
+# Subtest: queue scan words only surface row modifiers
+ok 45 - queue scan words only surface row modifiers
+# Subtest: held status line does not compete with Stopped/Held chips
+ok 46 - held status line does not compete with Stopped/Held chips
+# Subtest: splitNameForDisplay keeps extension in a non-shrinking tail
+ok 47 - splitNameForDisplay keeps extension in a non-shrinking tail
+# Subtest: uGet-style URL sequences expand with padding
+ok 48 - uGet-style URL sequences expand with padding
+# Subtest: clipboard extension filters keep magnets and listed kinds
+ok 49 - clipboard extension filters keep magnets and listed kinds
+# Subtest: mirror URLs skip the primary and non-http lines
+ok 50 - mirror URLs skip the primary and non-http lines
+# Subtest: quiet mode skips the browser confirm sheet
+ok 51 - quiet mode skips the browser confirm sheet
+# Subtest: quiet mode can pin captures to a category folder without smart folders
+ok 52 - quiet mode can pin captures to a category folder without smart folders
+# Subtest: speed-limit scope sentences stay distinct for row and mode caps
+ok 53 - speed-limit scope sentences stay distinct for row and mode caps
+# Subtest: housekeeping offers retry-all and clear-completed only when they do something
+ok 54 - housekeeping offers retry-all and clear-completed only when they do something
+# Subtest: a restart says how much was already on disk
+ok 55 - a restart says how much was already on disk
+# Subtest: media output names and merge gaps say what the file will be
+ok 56 - media output names and merge gaps say what the file will be
+# Subtest: a stalled or failed torrent says what to do next
+ok 57 - a stalled or failed torrent says what to do next
+# Subtest: slow is active with peers but almost no speed
+ok 58 - slow is active with peers but almost no speed
+# Subtest: priority summary names the tier still waiting
+ok 59 - priority summary names the tier still waiting
+# Subtest: bulk priority maps every file or only checked ones
+ok 60 - bulk priority maps every file or only checked ones
+# Subtest: recovery hints name a next step for common errors
+ok 61 - recovery hints name a next step for common errors
+# Subtest: the welcome sheet names the starter categories, or the ones already saved
+ok 62 - the welcome sheet names the starter categories, or the ones already saved
+# Subtest: turning categories on seeds starters only when the list is empty
+ok 63 - turning categories on seeds starters only when the list is empty
+# Subtest: Linux first-run presents the Omarchy checklist
+ok 64 - Linux first-run presents the Omarchy checklist
+# Subtest: notification permission message is shown only when permission is denied
+ok 65 - notification permission message is shown only when permission is denied
+# Subtest: Settings checks the notification service and reports failures
+ok 66 - Settings checks the notification service and reports failures
+# Subtest: tags normalize, parse, and summarize for the row
+ok 67 - tags normalize, parse, and summarize for the row
+# Subtest: tag maps add, replace, and remove without inventing empty entries
+ok 68 - tag maps add, replace, and remove without inventing empty entries
+# Subtest: saved destinations resolve under the download folder or as absolute paths
+ok 69 - saved destinations resolve under the download folder or as absolute paths
+# Subtest: path reveal reports missing paths and unavailable file managers
+ok 70 - path reveal reports missing paths and unavailable file managers
+# Subtest: path reveal reports opener failures and reveals valid paths
+ok 71 - path reveal reports opener failures and reveals valid paths
+# Subtest: organize menu offers category, destination, tag, and containing-folder verbs
+ok 72 - organize menu offers category, destination, tag, and containing-folder verbs
+# Subtest: queue groups keep Active/Queued/Paused/Seeding aligned with scan chips
+ok 73 - queue groups keep Active/Queued/Paused/Seeding aligned with scan chips
+# Subtest: scheduled queue rows and review copy surface holds across relaunches
+ok 74 - scheduled queue rows and review copy surface holds across relaunches
+# Subtest: queue bulk extras appear for mixed multi-select housekeeping
+ok 75 - queue bulk extras appear for mixed multi-select housekeeping
+# Subtest: torrent file filter matches name, extension, and selection
+ok 76 - torrent file filter matches name, extension, and selection
+# Subtest: torrent bulk priority actions cover every map key when files are checked
+ok 77 - torrent bulk priority actions cover every map key when files are checked
+# Subtest: torrent next step and health note cover weak, metainfo, and seeding
+ok 78 - torrent next step and health note cover weak, metainfo, and seeding
+# Subtest: quality choice kinds and row explain lines name merge vs one file
+ok 79 - quality choice kinds and row explain lines name merge vs one file
+# Subtest: embedded media collection puts meta and players ahead of download links
+ok 80 - embedded media collection puts meta and players ahead of download links
+# Subtest: a magnet's metadata download and its follow-up are one row
+ok 81 - a magnet's metadata download and its follow-up are one row
+# Subtest: desktop housekeeping matches Download menu verbs
+ok 82 - desktop housekeeping matches Download menu verbs
+# Subtest: tray actions use the single global menu dispatcher
+ok 83 - tray actions use the single global menu dispatcher
+# Subtest: a poll completes an interrupted large-list filter without repeating clean passes
+ok 84 - a poll completes an interrupted large-list filter without repeating clean passes
+# Subtest: finished rows from earlier runs come back only where aria2 has none
+ok 85 - finished rows from earlier runs come back only where aria2 has none
+# tests 85
+# suites 0
+# pass 85
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 122.533534
