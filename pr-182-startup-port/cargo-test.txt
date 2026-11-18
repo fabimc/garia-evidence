@@ -1,0 +1,7 @@
+test tests::busy_preferred_port_falls_back_without_waiting ... ok
+test tests::a_settings_file_without_the_field_keeps_the_port_closed ... ok
+test tests::a_pasted_proxy_url_fills_host_and_port ... ok
+test ftp::tests::pasv_port_is_the_only_number_we_trust ... ok
+test tests::free_preferred_port_is_kept ... ok
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 130 filtered out; finished in 0.00s
+full suite: test result: ok. 135 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 2.01s
