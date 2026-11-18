@@ -1,0 +1,222 @@
+[
+ {
+  "scheme": "light",
+  "status": "active",
+  "hover": true,
+  "selected": true,
+  "text": "48%",
+  "cls": "dl-status-text is-progress",
+  "fg": "rgb(37, 90, 168)",
+  "bg": "color(srgb 0.845569 0.879294 0.924549)",
+  "ratio": 5.09
+ },
+ {
+  "scheme": "light",
+  "status": "active",
+  "hover": false,
+  "selected": true,
+  "text": "49%",
+  "cls": "dl-status-text is-progress",
+  "fg": "rgb(37, 90, 168)",
+  "bg": "color(srgb 0.875529 0.898275 0.927373)",
+  "ratio": 5.34
+ },
+ {
+  "scheme": "light",
+  "status": "waiting",
+  "hover": true,
+  "selected": true,
+  "text": "Queued",
+  "cls": "dl-status-text",
+  "fg": "rgb(105, 95, 85)",
+  "bg": "color(srgb 0.845569 0.879294 0.924549)",
+  "ratio": 4.69
+ },
+ {
+  "scheme": "light",
+  "status": "waiting",
+  "hover": false,
+  "selected": true,
+  "text": "Queued",
+  "cls": "dl-status-text",
+  "fg": "rgb(105, 95, 85)",
+  "bg": "color(srgb 0.875529 0.898275 0.927373)",
+  "ratio": 4.92
+ },
+ {
+  "scheme": "light",
+  "status": "paused",
+  "hover": true,
+  "selected": true,
+  "text": "45% · Paused",
+  "cls": "dl-status-text",
+  "fg": "rgb(105, 95, 85)",
+  "bg": "color(srgb 0.845569 0.879294 0.924549)",
+  "ratio": 4.69
+ },
+ {
+  "scheme": "light",
+  "status": "paused",
+  "hover": false,
+  "selected": true,
+  "text": "45% · Paused",
+  "cls": "dl-status-text",
+  "fg": "rgb(105, 95, 85)",
+  "bg": "color(srgb 0.875529 0.898275 0.927373)",
+  "ratio": 4.92
+ },
+ {
+  "scheme": "light",
+  "status": "complete",
+  "hover": true,
+  "selected": true,
+  "text": "Done",
+  "cls": "dl-status-text",
+  "fg": "rgb(50, 109, 64)",
+  "bg": "color(srgb 0.845569 0.879294 0.924549)",
+  "ratio": 4.65
+ },
+ {
+  "scheme": "light",
+  "status": "complete",
+  "hover": false,
+  "selected": true,
+  "text": "Done",
+  "cls": "dl-status-text",
+  "fg": "rgb(50, 109, 64)",
+  "bg": "color(srgb 0.875529 0.898275 0.927373)",
+  "ratio": 4.88
+ },
+ {
+  "scheme": "light",
+  "status": "error",
+  "hover": true,
+  "selected": true,
+  "text": "Server: Resource not found Ret",
+  "cls": "dl-status-text is-error",
+  "fg": "rgb(179, 38, 30)",
+  "bg": "color(srgb 0.845569 0.879294 0.924549)",
+  "ratio": 4.92
+ },
+ {
+  "scheme": "light",
+  "status": "error",
+  "hover": false,
+  "selected": true,
+  "text": "Server: Resource not found Ret",
+  "cls": "dl-status-text is-error",
+  "fg": "rgb(179, 38, 30)",
+  "bg": "color(srgb 0.875529 0.898275 0.927373)",
+  "ratio": 5.16
+ },
+ {
+  "scheme": "dark",
+  "status": "active",
+  "hover": true,
+  "selected": true,
+  "text": "54%",
+  "cls": "dl-status-text is-progress",
+  "fg": "rgb(109, 159, 255)",
+  "bg": "color(srgb 0.16698 0.192627 0.250745)",
+  "ratio": 4.98
+ },
+ {
+  "scheme": "dark",
+  "status": "active",
+  "hover": false,
+  "selected": true,
+  "text": "54%",
+  "cls": "dl-status-text is-progress",
+  "fg": "rgb(109, 159, 255)",
+  "bg": "color(srgb 0.154274 0.171608 0.214196)",
+  "ratio": 5.37
+ },
+ {
+  "scheme": "dark",
+  "status": "waiting",
+  "hover": true,
+  "selected": true,
+  "text": "Queued",
+  "cls": "dl-status-text",
+  "fg": "rgb(170, 155, 137)",
+  "bg": "color(srgb 0.16698 0.192627 0.250745)",
+  "ratio": 4.8
+ },
+ {
+  "scheme": "dark",
+  "status": "waiting",
+  "hover": false,
+  "selected": true,
+  "text": "Queued",
+  "cls": "dl-status-text",
+  "fg": "rgb(170, 155, 137)",
+  "bg": "color(srgb 0.154274 0.171608 0.214196)",
+  "ratio": 5.18
+ },
+ {
+  "scheme": "dark",
+  "status": "paused",
+  "hover": true,
+  "selected": true,
+  "text": "45% · Paused",
+  "cls": "dl-status-text",
+  "fg": "rgb(170, 155, 137)",
+  "bg": "color(srgb 0.16698 0.192627 0.250745)",
+  "ratio": 4.8
+ },
+ {
+  "scheme": "dark",
+  "status": "paused",
+  "hover": false,
+  "selected": true,
+  "text": "45% · Paused",
+  "cls": "dl-status-text",
+  "fg": "rgb(170, 155, 137)",
+  "bg": "color(srgb 0.154274 0.171608 0.214196)",
+  "ratio": 5.18
+ },
+ {
+  "scheme": "dark",
+  "status": "complete",
+  "hover": true,
+  "selected": true,
+  "text": "Done",
+  "cls": "dl-status-text",
+  "fg": "rgb(125, 174, 136)",
+  "bg": "color(srgb 0.16698 0.192627 0.250745)",
+  "ratio": 5.12
+ },
+ {
+  "scheme": "dark",
+  "status": "complete",
+  "hover": false,
+  "selected": true,
+  "text": "Done",
+  "cls": "dl-status-text",
+  "fg": "rgb(125, 174, 136)",
+  "bg": "color(srgb 0.154274 0.171608 0.214196)",
+  "ratio": 5.53
+ },
+ {
+  "scheme": "dark",
+  "status": "error",
+  "hover": true,
+  "selected": true,
+  "text": "Server: Resource not found Ret",
+  "cls": "dl-status-text is-error",
+  "fg": "rgb(239, 129, 120)",
+  "bg": "color(srgb 0.16698 0.192627 0.250745)",
+  "ratio": 5
+ },
+ {
+  "scheme": "dark",
+  "status": "error",
+  "hover": false,
+  "selected": true,
+  "text": "Server: Resource not found Ret",
+  "cls": "dl-status-text is-error",
+  "fg": "rgb(239, 129, 120)",
+  "bg": "color(srgb 0.154274 0.171608 0.214196)",
+  "ratio": 5.39
+ }
+]
