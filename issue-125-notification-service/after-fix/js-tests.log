@@ -84,95 +84,103 @@ ok 41 - extension handoffs stay open for download, message, and batch captures
 ok 42 - extension handoff can retry a dismissed prompt, including long batches
 # Subtest: extension handoff without a payload stays put and hides retry
 ok 43 - extension handoff without a payload stays put and hides retry
+# Subtest: extension leaves Alt- and Ctrl-clicked file links to the browser
+ok 44 - extension leaves Alt- and Ctrl-clicked file links to the browser
+# Subtest: a link bypass skips download takeover once, including redirects
+ok 45 - a link bypass skips download takeover once, including redirects
 # Subtest: page capture lists embedded media before links and drops the page itself
-ok 44 - page capture lists embedded media before links and drops the page itself
+ok 46 - page capture lists embedded media before links and drops the page itself
 # Subtest: queue scan words only surface row modifiers
-ok 45 - queue scan words only surface row modifiers
+ok 47 - queue scan words only surface row modifiers
 # Subtest: held status line does not compete with Stopped/Held chips
-ok 46 - held status line does not compete with Stopped/Held chips
+ok 48 - held status line does not compete with Stopped/Held chips
 # Subtest: splitNameForDisplay keeps extension in a non-shrinking tail
-ok 47 - splitNameForDisplay keeps extension in a non-shrinking tail
+ok 49 - splitNameForDisplay keeps extension in a non-shrinking tail
 # Subtest: uGet-style URL sequences expand with padding
-ok 48 - uGet-style URL sequences expand with padding
+ok 50 - uGet-style URL sequences expand with padding
 # Subtest: clipboard extension filters keep magnets and listed kinds
-ok 49 - clipboard extension filters keep magnets and listed kinds
+ok 51 - clipboard extension filters keep magnets and listed kinds
 # Subtest: mirror URLs skip the primary and non-http lines
-ok 50 - mirror URLs skip the primary and non-http lines
+ok 52 - mirror URLs skip the primary and non-http lines
 # Subtest: quiet mode skips the browser confirm sheet
-ok 51 - quiet mode skips the browser confirm sheet
+ok 53 - quiet mode skips the browser confirm sheet
 # Subtest: quiet mode can pin captures to a category folder without smart folders
-ok 52 - quiet mode can pin captures to a category folder without smart folders
+ok 54 - quiet mode can pin captures to a category folder without smart folders
 # Subtest: speed-limit scope sentences stay distinct for row and mode caps
-ok 53 - speed-limit scope sentences stay distinct for row and mode caps
+ok 55 - speed-limit scope sentences stay distinct for row and mode caps
 # Subtest: housekeeping offers retry-all and clear-completed only when they do something
-ok 54 - housekeeping offers retry-all and clear-completed only when they do something
+ok 56 - housekeeping offers retry-all and clear-completed only when they do something
 # Subtest: a restart says how much was already on disk
-ok 55 - a restart says how much was already on disk
+ok 57 - a restart says how much was already on disk
 # Subtest: media output names and merge gaps say what the file will be
-ok 56 - media output names and merge gaps say what the file will be
+ok 58 - media output names and merge gaps say what the file will be
 # Subtest: a stalled or failed torrent says what to do next
-ok 57 - a stalled or failed torrent says what to do next
+ok 59 - a stalled or failed torrent says what to do next
 # Subtest: slow is active with peers but almost no speed
-ok 58 - slow is active with peers but almost no speed
+ok 60 - slow is active with peers but almost no speed
 # Subtest: priority summary names the tier still waiting
-ok 59 - priority summary names the tier still waiting
+ok 61 - priority summary names the tier still waiting
 # Subtest: bulk priority maps every file or only checked ones
-ok 60 - bulk priority maps every file or only checked ones
+ok 62 - bulk priority maps every file or only checked ones
 # Subtest: recovery hints name a next step for common errors
-ok 61 - recovery hints name a next step for common errors
+ok 63 - recovery hints name a next step for common errors
 # Subtest: the welcome sheet names the starter categories, or the ones already saved
-ok 62 - the welcome sheet names the starter categories, or the ones already saved
+ok 64 - the welcome sheet names the starter categories, or the ones already saved
 # Subtest: turning categories on seeds starters only when the list is empty
-ok 63 - turning categories on seeds starters only when the list is empty
+ok 65 - turning categories on seeds starters only when the list is empty
 # Subtest: Linux first-run presents the Omarchy checklist
-ok 64 - Linux first-run presents the Omarchy checklist
+ok 66 - Linux first-run presents the Omarchy checklist
+# Subtest: Help keeps its body keyboard-scrollable within the sheet
+ok 67 - Help keeps its body keyboard-scrollable within the sheet
 # Subtest: notification permission message is shown only when permission is denied
-ok 65 - notification permission message is shown only when permission is denied
+ok 68 - notification permission message is shown only when permission is denied
 # Subtest: Settings checks the notification service and reports failures
-ok 66 - Settings checks the notification service and reports failures
+ok 69 - Settings checks the notification service and reports failures
 # Subtest: tags normalize, parse, and summarize for the row
-ok 67 - tags normalize, parse, and summarize for the row
+ok 70 - tags normalize, parse, and summarize for the row
 # Subtest: tag maps add, replace, and remove without inventing empty entries
-ok 68 - tag maps add, replace, and remove without inventing empty entries
+ok 71 - tag maps add, replace, and remove without inventing empty entries
 # Subtest: saved destinations resolve under the download folder or as absolute paths
-ok 69 - saved destinations resolve under the download folder or as absolute paths
+ok 72 - saved destinations resolve under the download folder or as absolute paths
 # Subtest: path reveal reports missing paths and unavailable file managers
-ok 70 - path reveal reports missing paths and unavailable file managers
+ok 73 - path reveal reports missing paths and unavailable file managers
 # Subtest: path reveal reports opener failures and reveals valid paths
-ok 71 - path reveal reports opener failures and reveals valid paths
+ok 74 - path reveal reports opener failures and reveals valid paths
 # Subtest: organize menu offers category, destination, tag, and containing-folder verbs
-ok 72 - organize menu offers category, destination, tag, and containing-folder verbs
+ok 75 - organize menu offers category, destination, tag, and containing-folder verbs
 # Subtest: queue groups keep Active/Queued/Paused/Seeding aligned with scan chips
-ok 73 - queue groups keep Active/Queued/Paused/Seeding aligned with scan chips
+ok 76 - queue groups keep Active/Queued/Paused/Seeding aligned with scan chips
 # Subtest: scheduled queue rows and review copy surface holds across relaunches
-ok 74 - scheduled queue rows and review copy surface holds across relaunches
+ok 77 - scheduled queue rows and review copy surface holds across relaunches
 # Subtest: queue bulk extras appear for mixed multi-select housekeeping
-ok 75 - queue bulk extras appear for mixed multi-select housekeeping
+ok 78 - queue bulk extras appear for mixed multi-select housekeeping
 # Subtest: torrent file filter matches name, extension, and selection
-ok 76 - torrent file filter matches name, extension, and selection
+ok 79 - torrent file filter matches name, extension, and selection
 # Subtest: torrent bulk priority actions cover every map key when files are checked
-ok 77 - torrent bulk priority actions cover every map key when files are checked
+ok 80 - torrent bulk priority actions cover every map key when files are checked
 # Subtest: torrent next step and health note cover weak, metainfo, and seeding
-ok 78 - torrent next step and health note cover weak, metainfo, and seeding
+ok 81 - torrent next step and health note cover weak, metainfo, and seeding
 # Subtest: quality choice kinds and row explain lines name merge vs one file
-ok 79 - quality choice kinds and row explain lines name merge vs one file
+ok 82 - quality choice kinds and row explain lines name merge vs one file
 # Subtest: embedded media collection puts meta and players ahead of download links
-ok 80 - embedded media collection puts meta and players ahead of download links
+ok 83 - embedded media collection puts meta and players ahead of download links
 # Subtest: a magnet's metadata download and its follow-up are one row
-ok 81 - a magnet's metadata download and its follow-up are one row
+ok 84 - a magnet's metadata download and its follow-up are one row
 # Subtest: desktop housekeeping matches Download menu verbs
-ok 82 - desktop housekeeping matches Download menu verbs
+ok 85 - desktop housekeeping matches Download menu verbs
+# Subtest: download state text meets contrast on selected rows in both color schemes
+ok 86 - download state text meets contrast on selected rows in both color schemes
 # Subtest: tray actions use the single global menu dispatcher
-ok 83 - tray actions use the single global menu dispatcher
+ok 87 - tray actions use the single global menu dispatcher
 # Subtest: a poll completes an interrupted large-list filter without repeating clean passes
-ok 84 - a poll completes an interrupted large-list filter without repeating clean passes
+ok 88 - a poll completes an interrupted large-list filter without repeating clean passes
 # Subtest: finished rows from earlier runs come back only where aria2 has none
-ok 85 - finished rows from earlier runs come back only where aria2 has none
-# tests 85
+ok 89 - finished rows from earlier runs come back only where aria2 has none
+# tests 89
 # suites 0
-# pass 85
+# pass 89
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 122.533534
+# duration_ms 128.277204

@@ -1,6 +1,6 @@
 # Issue #125: Linux notifications look enabled with no notification daemon
 
-Fixed by [fabimc/garia#179](https://github.com/fabimc/garia/pull/179), with `master` at `677fc52` merged in plus review fixes (`b34c49f`). Map corrections from the verify-garia maintain pass are in `17b304d`.
+Fixed by [fabimc/garia#179](https://github.com/fabimc/garia/pull/179), with `master` at `677fc52` merged in plus review fixes (`b34c49f`). Map corrections from the verify-garia maintain pass are in `17b304d`. A second merge of `master` (`96df1d0`) is in `b339541`.
 
 ## What changed in review
 
@@ -38,12 +38,12 @@ Not verified natively: a real Tauri window clicking the toggle against a live da
 ## Results: tests (after)
 
 - [`after-fix/rust-tests.log`](after-fix/rust-tests.log): all 133 lib tests pass.
-- [`after-fix/js-tests.log`](after-fix/js-tests.log): `npm test`, 85/85 pass.
+- [`after-fix/js-tests.log`](after-fix/js-tests.log): `npm test` on the final merged tree, 89/89 pass.
 
 ## verify-garia maintain pass
 
 All 8 mapped features were driven live in browser-dev: browse, filter, detail, pause/resume, add, large list (525 rows), keyboard journey, and first-run. Captures are in [`maintain-verify-garia/`](maintain-verify-garia/). **Outcome: changed.** These map corrections are in `17b304d`:
 
-- **first-run-omarchy:** the `?platform=linux` / `?platform=macos` switch and the `.setup-generic` / `.setup-linux-only` classes no longer exist, so the old recipe's eval would throw. In browser-dev the Help sheet (1810 px in a 657 px viewport) doesn't scroll without the native `in-app` class, so clicking `#help-setup` timed out. The recipe now adds `in-app` first. It was re-driven as written and shows 4 rows plus both links ([screenshot](maintain-verify-garia/first-run-omarchy/checklist-maintain.png)).
+- **first-run-omarchy:** the `?platform=linux` / `?platform=macos` switch and the `.setup-generic` / `.setup-linux-only` classes no longer exist, so the old recipe's eval would throw. The recipe now checks the four `.setup-row`s and both links. Before #175 merged, the browser-dev Help sheet (1810 px in a 657 px viewport) didn't scroll, so clicking `#help-setup` timed out. A temporary `in-app` step worked around that, then was dropped once master's scroll fix landed. The final recipe was re-driven as written on the merged tree: 4 rows plus both links ([screenshot](maintain-verify-garia/first-run-omarchy/checklist-maintain.png)).
 - **keyboard-journey, add-download, download-detail:** removed the ⌘ labels and the no-op `?platform=linux` step.
 - No product gaps were found. The formal schedule skill wasn't re-run because this PR doesn't touch schedule/decide code.
