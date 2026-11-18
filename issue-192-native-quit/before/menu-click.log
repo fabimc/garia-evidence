@@ -1,0 +1,9 @@
+23:48:30.194 launched /home/user/garia/src-tauri/target/debug/garia-before pid=21082
+23:48:34.717 window=4194305 aria2c=21175
+23:48:52.160 screenshot menu-click-01-launched.png
+23:48:53.854 screenshot menu-click-02-garia-menu-open.png
+23:48:54.442 screenshot menu-click-03-quit-hovered.png
+23:48:54.547 sent menu-click
+23:49:00.089 RESULT mode=menu-click garia=running aria2c(21175)=running
+21175 /home/user/garia/src-tauri/target/debug/aria2c --enable-rpc --rpc-listen-all=false --rpc-listen-port=6800 --rpc-secret=******************************** --quiet=true --dir=/tmp/tmp.LH0128tpuu/Downloads --max-concurrent-downloads=5 --max-overall-download-limit=0 --seed-ratio=1 --continue=true --max-connection-per-server=16 --split=16 --min-split-size=1M --save-session=/tmp/tmp.LH0128tpuu/data/com.fabimc.garia/session.txt --save-session-interval=30 --input-file=/tmp/tmp.LH0128tpuu/data/com.fabimc.garia/session.txt
+23:49:00.186 screenshot menu-click-04-still-running.png

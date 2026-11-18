@@ -1,0 +1,8 @@
+23:50:17.665 launched /home/user/garia/src-tauri/target/debug/garia-after pid=21854
+23:50:22.190 window=4194305 aria2c=21901
+23:50:39.620 screenshot menu-click-01-launched.png
+23:50:41.311 screenshot menu-click-02-garia-menu-open.png
+23:50:41.904 screenshot menu-click-03-quit-hovered.png
+23:50:42.009 sent menu-click
+23:50:42.515 RESULT mode=menu-click garia=exited aria2c(21901)=gone
+23:50:42.522 no aria2c processes left

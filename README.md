@@ -26,4 +26,4 @@ Verification evidence (screenshots and data) for [fabimc/garia](https://github.c
 | [`issue-162-filter/`](issue-162-filter/) | [#162](https://github.com/fabimc/garia/issues/162): search and filter stuck half-applied on large lists | [#167](https://github.com/fabimc/garia/pull/167) |
 | [`pr-181-row-menu-short-window/`](pr-181-row-menu-short-window/) | [#127](https://github.com/fabimc/garia/issues/127): Row menu clipped above a short (tiled) window; keyboard row menu | [#181](https://github.com/fabimc/garia/pull/181) |
 | [`pr-182-startup-port/`](pr-182-startup-port/) | [#128](https://github.com/fabimc/garia/issues/128): Busy RPC port delays the first window | [#182](https://github.com/fabimc/garia/pull/182) |
-| [`issue-192-native-quit/`](issue-192-native-quit/) | [#192](https://github.com/fabimc/garia/issues/192): Native menu Quit is disabled on Linux, and Ctrl+Q does nothing | — |
+| [`issue-192-native-quit/`](issue-192-native-quit/) | [#192](https://github.com/fabimc/garia/issues/192): Native menu Quit is disabled on Linux, and Ctrl+Q does nothing | [#194](https://github.com/fabimc/garia/pull/194) |

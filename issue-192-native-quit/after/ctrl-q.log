@@ -1,0 +1,6 @@
+23:50:42.539 launched /home/user/garia/src-tauri/target/debug/garia-after pid=22041
+23:50:47.064 window=4194305 aria2c=22087
+23:51:04.496 screenshot ctrl-q-01-launched.png
+23:51:04.528 sent ctrl-q
+23:51:05.034 RESULT mode=ctrl-q garia=exited aria2c(22087)=gone
+23:51:05.042 no aria2c processes left

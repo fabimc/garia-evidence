@@ -1,0 +1,8 @@
+23:49:29.833 launched /home/user/garia/src-tauri/target/debug/garia-before pid=21616
+23:49:34.361 window=4194305 aria2c=21662
+23:49:51.810 screenshot tray-quit-01-launched.png
+23:50:16.861 tray bus=:1.17 menu=/org/ayatana/NotificationItem/tray_icon_tray_app_status/Menu
+23:50:16.875 tray Quit id=17
+23:50:16.881 sent tray-quit
+23:50:17.639 RESULT mode=tray-quit garia=exited aria2c(21662)=gone
+23:50:17.647 no aria2c processes left

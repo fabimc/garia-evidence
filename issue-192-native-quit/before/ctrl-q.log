@@ -1,0 +1,7 @@
+23:49:01.206 launched /home/user/garia/src-tauri/target/debug/garia-before pid=21406
+23:49:05.732 window=4194305 aria2c=21452
+23:49:23.145 screenshot ctrl-q-01-launched.png
+23:49:23.177 sent ctrl-q
+23:49:28.718 RESULT mode=ctrl-q garia=running aria2c(21452)=running
+21452 /home/user/garia/src-tauri/target/debug/aria2c --enable-rpc --rpc-listen-all=false --rpc-listen-port=36351 --rpc-secret=******************************** --quiet=true --dir=/tmp/tmp.3H2Qk91QOZ/Downloads --max-concurrent-downloads=5 --max-overall-download-limit=0 --seed-ratio=1 --continue=true --max-connection-per-server=16 --split=16 --min-split-size=1M --save-session=/tmp/tmp.3H2Qk91QOZ/data/com.fabimc.garia/session.txt --save-session-interval=30 --input-file=/tmp/tmp.3H2Qk91QOZ/data/com.fabimc.garia/session.txt
+23:49:28.811 screenshot ctrl-q-04-still-running.png
