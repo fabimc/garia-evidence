@@ -1,0 +1,74 @@
+{
+  "browser": {
+    "before": {
+      "focused": true,
+      "scrollTop": 0,
+      "scrollHeight": 1684,
+      "clientHeight": 1684,
+      "modalBottom": 1165,
+      "viewport": 520,
+      "doneVisible": false,
+      "keyboardOnlyInView": true,
+      "maxHeight": "none"
+    },
+    "pageDownPresses": 0,
+    "afterPageDown": {
+      "focused": true,
+      "scrollTop": 0,
+      "scrollHeight": 1684,
+      "clientHeight": 1684,
+      "modalBottom": 1165,
+      "viewport": 520,
+      "doneVisible": false,
+      "keyboardOnlyInView": true,
+      "maxHeight": "none"
+    },
+    "end": {
+      "focused": true,
+      "scrollTop": 0,
+      "scrollHeight": 1684,
+      "clientHeight": 1684,
+      "modalBottom": 1165,
+      "viewport": 520,
+      "doneVisible": false,
+      "keyboardOnlyInView": true,
+      "maxHeight": "none"
+    }
+  },
+  "in-app": {
+    "before": {
+      "focused": true,
+      "scrollTop": 0,
+      "scrollHeight": 1703,
+      "clientHeight": 361,
+      "modalBottom": 500,
+      "viewport": 520,
+      "doneVisible": true,
+      "keyboardOnlyInView": false,
+      "maxHeight": "488px"
+    },
+    "pageDownPresses": 1,
+    "afterPageDown": {
+      "focused": true,
+      "scrollTop": 315,
+      "scrollHeight": 1703,
+      "clientHeight": 361,
+      "modalBottom": 500,
+      "viewport": 520,
+      "doneVisible": true,
+      "keyboardOnlyInView": true,
+      "maxHeight": "488px"
+    },
+    "end": {
+      "focused": true,
+      "scrollTop": 1342,
+      "scrollHeight": 1703,
+      "clientHeight": 361,
+      "modalBottom": 500,
+      "viewport": 520,
+      "doneVisible": true,
+      "keyboardOnlyInView": false,
+      "maxHeight": "488px"
+    }
+  }
+}
