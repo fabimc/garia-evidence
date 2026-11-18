@@ -1,0 +1,47 @@
+{
+  "alt-click": {
+    "newTabs": [
+      "ext:/handoff.html?url=http%3A%2F%2F127.0.0.1%3A39011%2Ffiles%2Farchive.zip&from=extension&"
+    ],
+    "downloads": [
+      {
+        "url": "/files/archive.zip",
+        "finalUrl": "/files/archive.zip",
+        "state": "interrupted",
+        "error": "USER_CANCELED"
+      }
+    ]
+  },
+  "alt-click-redirect": {
+    "newTabs": [
+      "ext:/handoff.html?url=http%3A%2F%2F127.0.0.1%3A39011%2Ffiles%2Freport.zip&from=extension&n"
+    ],
+    "downloads": [
+      {
+        "url": "/get?id=42",
+        "finalUrl": "/files/report.zip",
+        "state": "interrupted",
+        "error": "USER_CANCELED"
+      }
+    ]
+  },
+  "ctrl-click": {
+    "newTabs": [
+      "ext:/handoff.html?url=http%3A%2F%2F127.0.0.1%3A39011%2Ffiles%2Fphotos.zip&from=extension&n"
+    ],
+    "downloads": [
+      {
+        "url": "/files/photos.zip",
+        "finalUrl": "/files/photos.zip",
+        "state": "interrupted",
+        "error": "USER_CANCELED"
+      }
+    ]
+  },
+  "plain-click": {
+    "newTabs": [
+      "ext:/handoff.html?url=http%3A%2F%2F127.0.0.1%3A39011%2Ffiles%2Farchive.zip&from=extension&"
+    ],
+    "downloads": []
+  }
+}

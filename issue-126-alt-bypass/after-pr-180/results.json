@@ -1,0 +1,41 @@
+{
+  "alt-click": {
+    "newTabs": [],
+    "downloads": [
+      {
+        "url": "/files/archive.zip",
+        "finalUrl": "/files/archive.zip",
+        "state": "complete",
+        "error": ""
+      }
+    ]
+  },
+  "alt-click-redirect": {
+    "newTabs": [],
+    "downloads": [
+      {
+        "url": "/get?id=42",
+        "finalUrl": "/files/report.zip",
+        "state": "complete",
+        "error": ""
+      }
+    ]
+  },
+  "ctrl-click": {
+    "newTabs": [],
+    "downloads": [
+      {
+        "url": "/files/photos.zip",
+        "finalUrl": "/files/photos.zip",
+        "state": "complete",
+        "error": ""
+      }
+    ]
+  },
+  "plain-click": {
+    "newTabs": [
+      "ext:/handoff.html?url=http%3A%2F%2F127.0.0.1%3A33083%2Ffiles%2Farchive.zip&from=extension&"
+    ],
+    "downloads": []
+  }
+}
